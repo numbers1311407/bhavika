@@ -21,7 +21,7 @@
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
-  <link rel="stylesheet" href="css/style.css">
+  <%= stylesheet_link_tag 'style.css' %>
   
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -79,6 +79,8 @@
     <%= javascript_include_tag "/js/libs/underscore.js" %>
     <%= javascript_include_tag "/js/plugins.js" %>
     <%= javascript_include_tag "/js/script.js" %>
+
+    <%= include_javascripts :all %>
 
     <!-- Change UA-XXXXX-X to be your site's ID -->
     <script>
