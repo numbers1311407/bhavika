@@ -1,0 +1,10 @@
+body.about {
+  .heading {
+    @include column(3);
+    @include min-height($blueprint-row-height);
+  }
+  .body {
+    @include column(2);
+    @include prepend(1);
+  }
+}

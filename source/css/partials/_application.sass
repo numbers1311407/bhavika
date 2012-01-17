@@ -1,0 +1,64 @@
+@import 'compass/utilities/general/min'
+
+$top-padding: 90px
+$lines-border-style: 1px solid $lines-gray
+
+html, body
+  height: 100%
+#container
+  +min-height(100%)
+
+.spinner
+  display: block
+  height: 55px
+  width: 55px
+  background: #fff url(../img/ajax-loader.gif) no-repeat
+    
+body
+  background-color: $body-background-color
+  #container
+    +container
+    background: url(../img/bg.png)
+    padding: $blueprint-grid-margin
+    border-top: $lines-border-style
+  #header, #footer
+    +column($blueprint-grid-columns)
+  #sidebar 
+    +column(2)
+    #sidebar-top
+      padding-top: $top-padding
+      position: relative
+      +min-height($blueprint-row-height - $top_padding)
+      +column(2)
+      #logo
+        margin-left: 3px
+        background: #fff url(../img/logo.png) no-repeat
+        height: 27px
+        width: 128px
+        a
+          width: 100%
+          height: 100%
+          display: block
+          text-indent: -9999px
+      #main-nav
+        position: absolute
+        bottom: 0px
+        +menu-fonts
+        text-transform: uppercase
+        li
+          border-bottom: $lines-border-style
+        margin-left: 1px
+
+    #sidebar-bottom
+      +column(1)
+      +prepend(1)
+      #sub-nav
+        +menu-fonts
+        li
+          border-top: $lines-border-style
+        h2
+          padding: 0 5px
+
+  #content
+    position: relative
+    +column(4, true)

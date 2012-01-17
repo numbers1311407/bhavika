@@ -1,0 +1,124 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/b/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>About Me | Bhavika Parekh</title>
+  <meta content="Default Meta Description" name="description" />
+  <meta name="author" content="Bhavika Parekh">
+
+  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except this Modernizr build incl. Respond.js
+       Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects; 
+       for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body class="home">
+
+<body class="about">  <div id="container">
+    <hr />
+    <div id="sidebar">
+      <div id="sidebar-top">
+        <div id="logo">
+          <a href="/" title="Bhavika Parekh">Bhavika Parekh</a>
+        </div>
+        <div id="main-nav">
+          <ul role="navigation">
+            <li><a class="current" href="/">Home</a></li>
+            <li><a href="/about.html" rel="author">About Me</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="sidebar-bottom">
+        <div id="sub-nav">
+          <h2>Work</h2>
+          <ul role="navigation">
+            
+              <li><a href="/#!/proj1">Project 1</a></li>
+            
+              <li><a href="/#!/proj2">Project 2</a></li>
+            
+              <li><a href="/#!/proj3">Project 3</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="content" role="main">
+      <div class="heading">
+  <h1>not everything is design, but design is about everything.</h1>
+</div>
+<div class="body">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce velit ante, 
+    ultrices nec blandit iaculis, fermentum eu justo. Nulla convallis, est vel 
+    aliquam ultrices, sem enim scelerisque lacus, at porta eros risus vitae turpis. 
+    Duis eros ipsum, dapibus sit Amet dapibus quis, ultricies vitae orci. 
+  </p>
+  <p>
+    Vestibulum et arcu ac tellus laoreet porta. Pellentesque habitant morbi tristique 
+    senectus et netus et malesuada fames ac turpis egestas. Vestibulum posuere tempor 
+    enim vitae commodo. Fusce hendrerit ante vitae nunc 
+  </p>
+  <p>
+    ullamcorper euismod. Vestibulum accumsan vulputate ornare. Mauris vitae velit nulla. 
+    Vestibulum a porttitor nulla.  Pellentesque elementum, felis rutrum consequat 
+    tincidunt, leo tellus venenatis metus, non elementum nunc magna et erat
+  </p>
+</div>
+
+    </div>
+  </div>
+
+  <div class="hidden">
+    <!-- JavaScript at the bottom for fast page loading -->
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+    <!-- scripts concatenated and minified via build script -->
+    <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.js" type="text/javascript"></script>
+    <script src="/js/libs/jquery.ba-hashchange.js" type="text/javascript"></script>
+    <script src="/js/libs/underscore.js" type="text/javascript"></script>
+    <script src="/js/plugins.js" type="text/javascript"></script>
+    <script src="/js/script.js" type="text/javascript"></script>
+
+    <!-- Change UA-XXXXX-X to be your site's ID -->
+    <script>
+      window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+      Modernizr.load({
+        load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+      });
+    </script>
+
+
+    <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+         chromium.org/developers/how-tos/chrome-frame-getting-started -->
+    <!--[if lt IE 7 ]>
+      <script defer src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+      <script defer>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+    <![endif]-->
+  </div>
+</body>
+</html>

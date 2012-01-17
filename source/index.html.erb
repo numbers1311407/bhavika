@@ -1,0 +1,25 @@
+---
+title: Home
+body_class: home
+description: Overriding Meta Description
+---
+<div id="projects">
+  <div class="spinner"></div>
+</div>
+
+<script id="projectTmpl" type="text/x-jquery-tmpl">
+  <div class="project" id="${id}">
+    {{if (slides)}}{{tmpl(slides) "#slideTmpl"}}{{/if}}
+  </div>
+</script>
+
+<script id="slideTmpl" type="text/x-jquery-tmpl">
+  <div class="slide">
+    <div class="image">
+      <img alt="${alt}" src="${src}" title="${title}" />
+    </div>
+    <div class="description">
+      {{html description}}
+    </div>
+  </div>
+</script>

@@ -1,0 +1,49 @@
+- title: Project 1
+  id: proj1
+  slides:
+    - src: img/projects/project_1.jpg
+      title: Project 1-A Title
+      alt: Project 1-A Alt
+      description: |
+        <p>Project 1-A Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Fusce velit ante, ultrices nec blandit iaculis, fermentum eu justo. 
+        Nulla convallis, est vel aliquam ultrices, sem enim scelerisque lacus, 
+        at porta eros risus vitae turpis. Duis eros ipsum, dapibus sit</p>
+    - src: img/projects/project_2.jpg
+      title: Project 1-B Title
+      alt: Project 1-B Alt
+      description: |
+        <p>Project 1-B Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Fusce velit ante, ultrices nec blandit iaculis, fermentum eu justo. 
+        Nulla convallis, est vel aliquam ultrices, sem enim scelerisque lacus, 
+        at porta eros risus vitae turpis. Duis eros ipsum, dapibus sit</p>
+- title: Project 2
+  id: proj2
+  slides:
+    - src: img/projects/project_2.jpg
+      title: Project 2-A Title
+      alt: Project 2-A Alt
+      description: |
+        <p>Project 2-A Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Fusce velit ante, ultrices nec blandit iaculis, fermentum eu justo. 
+        Nulla convallis, est vel aliquam ultrices, sem enim scelerisque lacus, 
+        at porta eros risus vitae turpis. Duis eros ipsum, dapibus sit</p>
+    - src: img/projects/project_1.jpg
+      title: Project 2-B Title
+      alt: Project 2-B Alt
+      description: |
+        <p>Project 2-B Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Fusce velit ante, ultrices nec blandit iaculis, fermentum eu justo. 
+        Nulla convallis, est vel aliquam ultrices, sem enim scelerisque lacus, 
+        at porta eros risus vitae turpis. Duis eros ipsum, dapibus sit</p>
+- title: Project 3
+  id: proj3
+  slides:
+    - src: img/projects/project_1.jpg
+      title: Project 3-A Title
+      alt: Project 3-A Alt
+      description: |
+        <p>Project 3-A Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Fusce velit ante, ultrices nec blandit iaculis, fermentum eu justo. 
+        Nulla convallis, est vel aliquam ultrices, sem enim scelerisque lacus, 
+        at porta eros risus vitae turpis. Duis eros ipsum, dapibus sit</p>
