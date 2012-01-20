@@ -73,7 +73,7 @@
     <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
 
     <!-- scripts concatenated and minified via build script -->
-    <%= javascript_include_tag "http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.js" %>
+    <%= javascript_include_tag "/js/libs/jquery.tmpl.js" %>
     <%= javascript_include_tag "/js/libs/jquery.ba-hashchange.js" %>
     <%= javascript_include_tag "/js/libs/underscore.js" %>
     <%= javascript_include_tag "/js/plugins.js" %>
@@ -86,7 +86,6 @@
         load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
       });
     </script>
-
 
     <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
          chromium.org/developers/how-tos/chrome-frame-getting-started -->
