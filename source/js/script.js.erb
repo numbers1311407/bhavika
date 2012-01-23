@@ -1,10 +1,27 @@
-var BP = {
-  //projects: JSON.parse("<%= js_escape_html(data.projects.to_json) %>"),
-  projects: null,
 
-  render: function(data) {
-    $("#projects").empty();
-    $("#projectTmpl").tmpl(data).hide().appendTo("#projects").fadeIn();
+var scrollElem = scrollableElement('html', 'body');
+
+var BP = {
+  pHeight: null,
+  pCount: null,
+  currentProject: null,
+  projects: JSON.parse("<%= js_escape_html(data.projects.to_json) %>"),
+
+  render: function(el, data, partialRender) {
+    el.empty();
+    $('#projectTmpl').tmpl(data).appendTo(el);
+    if (!partialRender) { el.data('rendered', true) }
+  },
+
+  scrollTo: function(el, firstLoad) {
+    var position = el.position().top;
+
+    // we don't animate on first load
+    if (firstLoad) {
+      $(scrollElem).scrollTop(position);
+    } else {
+      $(scrollElem).animate({ scrollTop: position }, <%= data.site.animation_speed %>);
+    }
   },
 
   getId: function() {
@@ -13,27 +30,67 @@ var BP = {
     return hash && (match = hash.match(/\/([^$?]*)/)) && match[1];
   },
 
-  fetch: function(id, callback) {
-    var data;
+  getProjectData: function(id) {
+    return id ? _.find(BP.projects, function(p) { return p.id == id }) : BP.projects[0];
+  },
 
-    if (!BP.projects) {
-      $.getJSON('/api/projects.json', function(json) {
-        BP.projects = json;
-        BP.fetch(id, callback);
-      });
-      return false;
+  _load: function(id, callback) {
+    var firstLoad   = !BP.pCount,
+        projectData = BP.getProjectData(id),
+        projectEl   = $('#'+projectData.id);
+
+    if (!projectEl.data('rendered')) {
+      BP.render(projectEl, projectData);
     }
 
-    data = id ? _.find(BP.projects, function(p){ return p.id == id }) 
-              : BP.projects[0];
+    if (firstLoad) {
+      projects = $('.project');
+      BP.pHeight = projects.height();
+      BP.pCount  = projects.length;
+      BP.resize();
 
-    callback(data);
+      _(BP.projects).chain()
+        .filter(function(p) { return p.id != id })
+        .each(function(pData) {
+          pData = _.clone(pData);
+          if (pData.slides) { 
+            pData.slides = pData.slides[0];
+          }
+
+          BP.render($('#'+pData.id), pData, true);
+        });
+    }
+
+    BP.scrollTo(projectEl, firstLoad);
+    BP.currentProject = projectData.id;
   },
 
   load: function() {
-    BP.fetch(BP.getId(), BP.render);
+    BP._load(BP.getId(), BP.render);
+  },
+
+  resize: function(inf) {
+    $('#projects').height(
+      $(window).height() - BP.pHeight + BP.pHeight * BP.pCount
+    );
   }
 }
 
+$('#sub-nav a').click(function(e) {
+  // force a hashchange event if the hash is the same as the link
+  if (window.location.hash && window.location.hash == $(this).attr('href').replace(/[^#]+/,'')) {
+    $(window).hashchange();
+  }
+});
+
+var 
+arrowu = $('<div class="arrow" id="arrow-u" />'),
+arrowd = $('<div class="arrow" id="arrow-d" />'),
+arrowl = $('<div class="arrow" id="arrow-l" />'),
+arrowr = $('<div class="arrow" id="arrow-r" />');
+$('<div class="arrows" />').append(arrowu, arrowd, arrowl, arrowr).appendTo('body');
+
 $(window).bind('hashchange', BP.load);
-$(BP.load);
+$(window).resize(BP.resize);
+
+$(BP.load)

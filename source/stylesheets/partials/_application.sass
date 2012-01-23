@@ -19,12 +19,13 @@ body
   #container
     +container
     background: url(../img/bg.png)
-    padding: $blueprint-grid-margin
+    padding: 0 $blueprint-grid-margin $blueprint-grid-margin
     border-top: $lines-border-style
   #header, #footer
     +column($blueprint-grid-columns)
   #sidebar 
     +column(2)
+    position: fixed
     #sidebar-top
       padding-top: $top-padding
       position: relative
@@ -58,7 +59,3 @@ body
           border-top: $lines-border-style
         h2
           padding: 0 5px
-
-  #content
-    position: relative
-    +column(4, true)

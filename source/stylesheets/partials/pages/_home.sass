@@ -1,18 +1,62 @@
+@import 'compass/utilities/general/clearfix'
+
 body.home
-  .project
+  .arrows
+    display: block
+    position: fixed
+    width: 80px
+    height: 80px
+    top: 10px
+    left: 10px
+  .arrow
+    background-color: red
+    cursor: pointer
     position: absolute
+  #arrow-l, #arrow-r
+    height: 40px
+    width: 20px
+    top: 20px
+  #arrow-u, #arrow-d
+    height: 20px
+    width: 40px
+    right: 20px
+  #arrow-l
+    left: 0
+  #arrow-r
+    right: 0
+  #arrow-u
     top: 0
-    +column(4)
-    margin-bottom: $blueprint_grid_margin
+  #arrow-d
+    bottom: 0
+
+  .slides, .project-description
+    height: 335px
+  .slide
+    float: left
     .image
-      +column(3)
       img
         width: 434px
         height: 335px
         border: 0
         margin: 0
         padding: 0
-    .description
-      +column(1, true)
-      p
-        padding: 0 5px
+  .slide-description
+    position: absolute
+    bottom: 0
+    width: 434px
+  .slides
+    position: absolute
+    top: 0
+    left: 0
+    width: 9999em
+  .slides-wrapper
+    +column(3)
+    position: relative
+    height: 335px
+    margin-left: $blueprint-grid-outer-width * 2
+    overflow: hidden
+  .project-description
+    +column(1, true)
+  .project
+    margin-top: $blueprint-grid-margin
+    +clearfix
