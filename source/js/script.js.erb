@@ -1,40 +1,45 @@
-
-var scrollElem = scrollableElement('html', 'body');
-
 var BP = {
+  scroller: null,
   pHeight: null,
+  sWidth: null,
   pCount: null,
   currentProject: null,
+  projectEls: null,
   projects: JSON.parse("<%= js_escape_html(data.projects.to_json) %>"),
 
   render: function(el, data, partialRender) {
     el.empty();
     $('#projectTmpl').tmpl(data).appendTo(el);
-    if (!partialRender) { el.data('rendered', true) }
+
+    if (!partialRender) { 
+      el.data('rendered', true);
+      $('.slide', el).first().addClass('current');
+    }
   },
 
   scrollTo: function(el, firstLoad) {
-    var position = el.position().top;
+    var pos = el.position(), t = pos.top - 25;
 
     // we don't animate on first load
     if (firstLoad) {
-      $(scrollElem).scrollTop(position);
+      BP.scroller.scrollTop(t);
     } else {
-      $(scrollElem).animate({ scrollTop: position }, <%= data.site.animation_speed %>);
+      BP.scroller.stop().animate({scrollTop: t}, <%= data.site.animation_speed %>);
     }
   },
 
   getId: function() {
     var match, hash = window.location.hash;
 
-    return hash && (match = hash.match(/\/([^$?]*)/)) && match[1];
+    return hash && (match = hash.match(/\/([^$?]*)/)) && match[1] ||
+        BP.projects[0].id;
   },
 
   getProjectData: function(id) {
     return id ? _.find(BP.projects, function(p) { return p.id == id }) : BP.projects[0];
   },
 
-  _load: function(id, callback) {
+  _load: function(id) {
     var firstLoad   = !BP.pCount,
         projectData = BP.getProjectData(id),
         projectEl   = $('#'+projectData.id);
@@ -44,9 +49,9 @@ var BP = {
     }
 
     if (firstLoad) {
-      projects = $('.project');
-      BP.pHeight = projects.height();
-      BP.pCount  = projects.length;
+      BP.projectEls = $('.project');
+      BP.pHeight = BP.projectEls.outerHeight(true);
+      BP.pCount  = BP.projectEls.length;
       BP.resize();
 
       _(BP.projects).chain()
@@ -62,35 +67,69 @@ var BP = {
     }
 
     BP.scrollTo(projectEl, firstLoad);
-    BP.currentProject = projectData.id;
+
+    $('#sub-nav li')
+      .removeClass('current')
+      .siblings('.'+projectData.id).addClass('current');
+
+    projectEl
+      .addClass('current')
+      .siblings().removeClass('current');
+
+    BP.currentProject = projectEl;
   },
 
   load: function() {
-    BP._load(BP.getId(), BP.render);
+    BP._load(BP.getId());
+  },
+
+  _vScroll: function(dir) {
+    return function() {
+      var el;
+      if (BP.currentProject && (el = BP.currentProject[dir]())) {
+        BP._load(el.attr('id'));
+      }
+    }
+  },
+
+  _hScroll: function(dir) {
+    return function() {
+      if (BP.currentProject) {
+        $('.slide.current', BP.currentProject)[dir]().each(function(i, s) {
+          s = $(s);
+
+          s.closest('.slides').animate({left: s.position().left * -1}, <%= data.site.animation_speed %>, function() {
+            s.addClass('current').siblings().removeClass('current');
+          });
+        });
+      }
+    }
+  },
+
+  init: function() {
+
+    var arrowu = $('<div class="arrow" id="arrow-u" />').click(BP._vScroll('prev')),
+        arrowd = $('<div class="arrow" id="arrow-d" />').click(BP._vScroll('next')),
+        arrowl = $('<div class="arrow" id="arrow-l" />').click(BP._hScroll('prev')),
+        arrowr = $('<div class="arrow" id="arrow-r" />').click(BP._hScroll('next'));
+
+    $('<div class="arrows" />')
+      .append(arrowu, arrowd, arrowl, arrowr)
+      .appendTo('#container');
+
+    $(window).bind('hashchange', BP.load);
+    $(window).resize(BP.resize);
+
+    BP.scroller = $('#scroller');
+
+    BP.load();
   },
 
   resize: function(inf) {
     $('#projects').height(
-      $(window).height() - BP.pHeight + BP.pHeight * BP.pCount
+      $(window).height() - BP.pHeight + (BP.pHeight * BP.pCount)
     );
   }
 }
 
-$('#sub-nav a').click(function(e) {
-  // force a hashchange event if the hash is the same as the link
-  if (window.location.hash && window.location.hash == $(this).attr('href').replace(/[^#]+/,'')) {
-    $(window).hashchange();
-  }
-});
-
-var 
-arrowu = $('<div class="arrow" id="arrow-u" />'),
-arrowd = $('<div class="arrow" id="arrow-d" />'),
-arrowl = $('<div class="arrow" id="arrow-l" />'),
-arrowr = $('<div class="arrow" id="arrow-r" />');
-$('<div class="arrows" />').append(arrowu, arrowd, arrowl, arrowr).appendTo('body');
-
-$(window).bind('hashchange', BP.load);
-$(window).resize(BP.resize);
-
-$(BP.load)
+$(BP.init)

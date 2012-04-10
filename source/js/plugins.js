@@ -17,22 +17,3 @@ window.log = function(){
 
 
 // place any jQuery/helper plugins in here, instead of separate, slower script files.
-
-// use the first element that is "scrollable"
-function scrollableElement(els) {
-  for (var i = 0, argLength = arguments.length; i <argLength; i++) {
-    var el = arguments[i],
-        $scrollElement = $(el);
-    if ($scrollElement.scrollTop()> 0) {
-      return el;
-    } else {
-      $scrollElement.scrollTop(1);
-      var isScrollable = $scrollElement.scrollTop()> 0;
-      $scrollElement.scrollTop(0);
-      if (isScrollable) {
-        return el;
-      }
-    }
-  }
-  return [];
-}

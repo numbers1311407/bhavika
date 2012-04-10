@@ -6,17 +6,21 @@ description: Overriding Meta Description
 <div id="projects">
   <% data.projects.each do |project| %>
     <div class="project" id="<%= project.id %>"> 
-      <div class="slides-wrapper"><div class="spinner"></div></div>
+      <a href="/#/<%= project.id %>">
+        <div class="slides-wrapper"><div class="spinner"></div></div>
+      </a>
     </div>
   <% end %>
 </div>
 
 <script id="projectTmpl" type="text/x-jquery-tmpl">
-  <div class="slides-wrapper">
-    <div class="slides">
-      {{if (slides)}}{{tmpl(slides) "#slideTmpl"}}{{/if}}
+  <a href="/#/${id}">
+    <div class="slides-wrapper">
+      <div class="slides">
+        {{if (slides)}}{{tmpl(slides) "#slideTmpl"}}{{/if}}
+      </div>
     </div>
-  </div>
+  </a>
   <div class="project-description">
     {{html description}}
   </div>

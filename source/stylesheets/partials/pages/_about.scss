@@ -1,7 +1,11 @@
 body.about {
+  #sidebar {
+    position: static;
+  }
+  
   .heading {
     @include column(3);
-    @include min-height($blueprint-row-height);
+    @include min-height($row-height);
   }
   .body {
     @include column(2);

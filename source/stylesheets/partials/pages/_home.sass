@@ -1,13 +1,19 @@
 @import 'compass/utilities/general/clearfix'
 
+#projects 
+  padding-top: 30px
+  a:focus
+    outline: none
+
 body.home
+  overflow: hidden
+
   .arrows
-    display: block
+    top: 0
+    +column(6, true)
+    margin-left: -442px
+    left: 50%
     position: fixed
-    width: 80px
-    height: 80px
-    top: 10px
-    left: 10px
   .arrow
     background-color: red
     cursor: pointer
@@ -15,19 +21,19 @@ body.home
   #arrow-l, #arrow-r
     height: 40px
     width: 20px
-    top: 20px
+    top: 190px
   #arrow-u, #arrow-d
     height: 20px
     width: 40px
-    right: 20px
+    top: 355px
   #arrow-l
-    left: 0
+    left: $blueprint-grid-width + $blueprint-grid-margin + 105px
   #arrow-r
-    right: 0
+    right: 105px
   #arrow-u
-    top: 0
+    right: 85px
   #arrow-d
-    bottom: 0
+    right: 35px
 
   .slides, .project-description
     height: 335px
@@ -35,7 +41,7 @@ body.home
     float: left
     .image
       img
-        width: 434px
+        width: +span(3)
         height: 335px
         border: 0
         margin: 0

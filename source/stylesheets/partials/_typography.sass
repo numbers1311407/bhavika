@@ -1,3 +1,5 @@
+@import 'rgbapng'
+
 @mixin menu-fonts
   font-size: 11px
   line-height: 19px
@@ -12,8 +14,21 @@ a
   text-decoration: none
   &, &:active, &:visited
     color: $link_color
-  &:hover, &.current
-    color: $link_hover_color
+
+li a:hover
+  color: $link_hover_color
+
+li.current a
+  color: $link_hover_color
+
+.slide-description
+  color: white
+  padding: 5px
+  +rgba-background(rgba(0,0,0,0.25))
+  visibility: hidden
+
+a:hover .slide-description
+  visibility: visible
 
 h1
   color: black

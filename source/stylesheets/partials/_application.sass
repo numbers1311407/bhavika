@@ -1,18 +1,46 @@
 @import 'compass/utilities/general/min'
 
-$top-padding: 90px
+$top-padding: 40px
+$row-height: 335px
 $lines-border-style: 1px solid $lines-gray
 
 html, body
   height: 100%
+
+html
+  overflow: hidden
+
+body
+  width: 100%
+  position: relative
+
+#bg-grid
+  height: $row-height
+  border: solid #fff
+  border-width: 1px 0
+  width: 100%
+  position: absolute
+  margin-top: 40px
+
+#scroller
+  overflow: hidden
+  position: absolute
+  top: 0
+  height: 100%
+  width: 100%
+
 #container
   +min-height(100%)
+  position: relative
 
 .spinner
   display: block
   height: 55px
   width: 55px
   background: #fff url(../img/ajax-loader.gif) no-repeat
+
+ul[role=navigation]
+  text-transform: uppercase
     
 body
   background-color: $body-background-color
@@ -29,7 +57,7 @@ body
     #sidebar-top
       padding-top: $top-padding
       position: relative
-      +min-height($blueprint-row-height - $top_padding)
+      +min-height(215px)
       +column(2)
       #logo
         margin-left: 3px
@@ -45,7 +73,6 @@ body
         position: absolute
         bottom: 0px
         +menu-fonts
-        text-transform: uppercase
         li
           border-bottom: $lines-border-style
         margin-left: 1px
