@@ -1,0 +1,46 @@
+.connect {
+  position: fixed;
+  bottom: 5px;
+
+  ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  li, a {
+    display: block;
+  }
+
+  li {
+    float: left;
+    margin-left: 8px;
+  }
+
+  a {
+    text-align: left;
+    text-indent: -999em;
+    width: 24px;
+    height: 24px;
+    background: transparent image_url("sm_icons.png") no-repeat;
+
+    &:focus {
+      outline: none;
+    }
+
+    &.linkedIn {
+      background-position: 0 0;
+    }
+
+    &.twitter {
+      background-position: -33px 0;
+    }
+
+    &.flickr {
+      background-position: -64px 0;
+    }
+
+    &.be {
+      background-position: -98px 0;
+    }
+  }
+}

@@ -32,7 +32,6 @@
 </head>
 
 <%= data.page.body_class ? "<body class=\"#{data.page.body_class}\">" : "<body>" %>
-<div id="bg-grid"></div>
 <div id="scroller">
   <div id="container">
     <div id="sidebar">
@@ -51,11 +50,26 @@
       <div id="sidebar-bottom">
         <div id="sub-nav">
           <ul role="navigation">
-            <% data.projects.each do |project| %>
-              <li class="<%= project.id %>"><a href="/#/<%= project.id %>"><%= project.title %></a></li>
+            <% data.projects.each do |category| %>
+              <li class="project-category">
+                <span><%= category.title %></span>
+                <ul role="navigation">
+                  <% category.projects.each do |project| %>
+                    <li class="<%= project.id %>"><a href="/#/<%= project.id %>"><%= project.title %></a></li>
+                  <% end %>
+                </ul>
+              </li>
             <% end %>
           </ul>
         </div>
+      </div>
+      <div class="connect">
+        <ul>
+          <li><a href="#" class="linkedIn" title="Connect on LinkedIn">Connect on LinkedIn</a></li>
+          <li><a href="#" class="twitter" title="Follow me on Twitter">Follow me on Twitter</a></li>
+          <li><a href="#" class="flickr" title="Check out my images on Flickr">Check out my images on Flickr</a></li>
+          <li><a href="#" class="be" title="BE????">BE????</a></li>
+        </ul>
       </div>
     </div>
     <div id="content" role="main">

@@ -1,116 +1,132 @@
-- title: Identity
-  id: identity
-  description: Arenson Desc
-  slides:
-    - src: img/projects/arenson/3.jpg
-      title: arenson 3
-      alt: arenson 3
-      description: arenson 3 desc
-    - src: img/projects/arenson/4.jpg
-      title: arenson 4
-      alt: arenson 4
-      description: arenson 4 desc
-    - src: img/projects/arenson/5.jpg
-      title: arenson 5
-      alt: arenson 5
-      description: arenson 5 desc
-    - src: img/projects/arenson/6.jpg
-      title: arenson 6
-      alt: arenson 6
-      description: arenson 1 desc
-    - src: img/projects/arenson/logo.jpg
-      title: arenson logo
-      alt: arenson logo
-      description: arenson 1 desc
-    - src: img/projects/arenson/sign.jpg
-      title: arenson sign
-      alt: arenson sign
-      description: arenson sign desc
-- title: Branding
-  id: branding
-  description: logos description
-  slides:
-    - src: img/projects/logos/50_honeywell.jpg
-      title: logos 50_honeywell
-      alt: logos 50_honeywell
-      description: logos 50_honeywell
-    - src: img/projects/logos/art_logo.jpg
-      title: logos art_logo
-      alt: logos art_logo
-      description: logos art_logo
-    - src: img/projects/logos/cd_logo.jpg
-      title: logos cd_logo
-      alt: logos cd_logo
-      description: logos cd_logo
-    - src: img/projects/logos/center4innov.jpg
-      title: logos center4innov
-      alt: logos center4innov
-      description: logos center4innov
-    - src: img/projects/logos/classique.jpg
-      title: logos classique
-      alt: logos classique
-      description: logos classique
-    - src: img/projects/logos/empathy.jpg
-      title: logos empathy
-      alt: logos empathy
-      description: logos empathy
-    - src: img/projects/logos/glovista.jpg
-      title: logos glovista
-      alt: logos glovista
-      description: logos glovista
-    - src: img/projects/logos/hsbc.jpg
-      title: logos hsbc
-      alt: logos hsbc
-      description: logos hsbc
-    - src: img/projects/logos/signup_logo.jpg
-      title: logos signup_logo
-      alt: logos signup_logo
-      description: logos signup_logo
-- title: Interface
-  id: interface
-  description: md report
-  slides:
-    - src: img/projects/md_report/1.jpg
-      title: md report 1
-      alt: md report 1
-      description: md report 1
-    - src: img/projects/md_report/2.jpg
-      title: md report 2
-      alt: md report 2
-      description: md report 2
-    - src: img/projects/md_report/3.jpg
-      title: md report 3
-      alt: md report 3
-      description: md report 3
-- title: Corporate
-  id: corporate
-  description: pratt news
-  slides:
-    - src: img/projects/pratt_news/1.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/pratt_news/2.jpg
-      title: pratt news 2 title
-      alt: pratt news 2 alt
-      description: pratt news 2 description
-    - src: img/projects/pratt_news/3.jpg
-      title: pratt news 3 title
-      alt: pratt news 3 alt
-      description: pratt news 3 description
-- title: Editorial
-  id: editorial
-  description: editorial 
-  slides:
-    - src: img/projects/pratt_news/1.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-- title: Experimental
-  id: experimental
-  description: experimental
-  slides:
-    - src: img/projects/pratt_news/1.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
+- title: Category 1
+  projects:
+    - title: Identity
+      id: identity
+      next: branding
+      description: Arenson Desc
+      slides:
+        - src: images/projects/arenson/3.jpg
+          title: arenson 3
+          alt: arenson 3
+          description: arenson 3 desc
+        - src: images/projects/arenson/4.jpg
+          title: arenson 4
+          alt: arenson 4
+          description: arenson 4 desc
+        - src: images/projects/arenson/5.jpg
+          title: arenson 5
+          alt: arenson 5
+          description: arenson 5 desc
+        - src: images/projects/arenson/6.jpg
+          title: arenson 6
+          alt: arenson 6
+          description: arenson 1 desc
+        - src: images/projects/arenson/logo.jpg
+          title: arenson logo
+          alt: arenson logo
+          description: arenson 1 desc
+        - src: images/projects/arenson/sign.jpg
+          title: arenson sign
+          alt: arenson sign
+          description: arenson sign desc
+    - title: Branding
+      id: branding
+      previous: identity
+      next: interface
+      description: logos description
+      slides:
+        - src: images/projects/logos/50_honeywell.jpg
+          title: logos 50_honeywell
+          alt: logos 50_honeywell
+          description: logos 50_honeywell
+        - src: images/projects/logos/art_logo.jpg
+          title: logos art_logo
+          alt: logos art_logo
+          description: logos art_logo
+        - src: images/projects/logos/cd_logo.jpg
+          title: logos cd_logo
+          alt: logos cd_logo
+          description: logos cd_logo
+        - src: images/projects/logos/center4innov.jpg
+          title: logos center4innov
+          alt: logos center4innov
+          description: logos center4innov
+        - src: images/projects/logos/classique.jpg
+          title: logos classique
+          alt: logos classique
+          description: logos classique
+        - src: images/projects/logos/empathy.jpg
+          title: logos empathy
+          alt: logos empathy
+          description: logos empathy
+        - src: images/projects/logos/glovista.jpg
+          title: logos glovista
+          alt: logos glovista
+          description: logos glovista
+        - src: images/projects/logos/hsbc.jpg
+          title: logos hsbc
+          alt: logos hsbc
+          description: logos hsbc
+        - src: images/projects/logos/signup_logo.jpg
+          title: logos signup_logo
+          alt: logos signup_logo
+          description: logos signup_logo
+- title: Category 2
+  projects: 
+    - title: Interface
+      id: interface
+      description: md report
+      previous: branding
+      next: corporate
+      slides:
+        - src: images/projects/md_report/1.jpg
+          title: md report 1
+          alt: md report 1
+          description: md report 1
+        - src: images/projects/md_report/2.jpg
+          title: md report 2
+          alt: md report 2
+          description: md report 2
+        - src: images/projects/md_report/3.jpg
+          title: md report 3
+          alt: md report 3
+          description: md report 3
+    - title: Corporate
+      id: corporate
+      previous: interface
+      next: editorial
+      description: pratt news
+      slides:
+        - src: images/projects/pratt_news/1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/pratt_news/2.jpg
+          title: pratt news 2 title
+          alt: pratt news 2 alt
+          description: pratt news 2 description
+        - src: images/projects/pratt_news/3.jpg
+          title: pratt news 3 title
+          alt: pratt news 3 alt
+          description: pratt news 3 description
+    - title: Editorial
+      id: editorial
+      previous: corporate
+      next: experimental
+      description: editorial 
+      slides:
+        - src: images/projects/pratt_news/1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+- title: Category 3
+  projects:
+    - title: Experimental
+      id: experimental
+      previous: editorial
+      description: experimental
+      slides:
+        - src: images/projects/pratt_news/1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description

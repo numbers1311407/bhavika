@@ -4,7 +4,7 @@ body_class: home
 description: Overriding Meta Description
 ---
 <div id="projects">
-  <% data.projects.each do |project| %>
+  <% flattened_projects.each do |project| %>
     <div class="project" id="<%= project.id %>"> 
       <a href="/#/<%= project.id %>">
         <div class="slides-wrapper"><div class="spinner"></div></div>
@@ -15,24 +15,34 @@ description: Overriding Meta Description
 
 <script id="projectTmpl" type="text/x-jquery-tmpl">
   <a href="/#/${id}">
-    <div class="slides-wrapper">
-      <div class="slides">
+    <span class="slides-wrapper">
+      <span class="slides">
         {{if (slides)}}{{tmpl(slides) "#slideTmpl"}}{{/if}}
-      </div>
-    </div>
+      </span>
+    </span>
   </a>
   <div class="project-description">
     {{html description}}
   </div>
+  <div class="nav">
+    <span class="nav-left"><span></span></span>
+    <span class="nav-right"><span></span></span>
+    {{if (previous)}}
+    <!-- <a class="nav-top" href="/#/${previous}">Previous</a> -->
+    {{/if}}
+    {{if (next)}}
+    <!-- <a class="nav-bottom" href="/#/${next}">Next</a> -->
+    {{/if}}
+  </div>
 </script>
 
 <script id="slideTmpl" type="text/x-jquery-tmpl">
-  <div class="slide">
-    <div class="image">
+  <span class="slide">
+    <span class="image">
       <img alt="${alt}" src="${src}" title="${title}" />
-    </div>
-    <div class="slide-description">
+    </span>
+    <span class="slide-description">
       {{html description}}
-    </div>
-  </div>
+    </span>
+  </span>
 </script>

@@ -9,9 +9,9 @@
 require 'rgbapng'
 
 # Change Compass configuration
-#compass_config do |config|
-  #config.output_style = :compact
-#end
+# compass_config do |config|
+#   config.images_dir = config.project_path + '/img'
+# end
 
 ###
 # Haml
@@ -64,6 +64,12 @@ helpers do
 
   def meta_description
     data.page.description || data.site.description
+  end
+
+  def flattened_projects
+    data.projects.map do |category|
+      category.projects
+    end.flatten
   end
 end
 
