@@ -118,7 +118,7 @@
         - src: images/projects/pratt_news/1.jpg
           title: pratt news 1 title
           alt: pratt news 1 alt
-          description: pratt news 1 description
+          description: pratt news  1 description
 - title: Category 3
   projects:
     - title: Experimental
