@@ -7,23 +7,11 @@ $lines-border-style: 1px solid $lines-gray
 html, body
   height: 100%
 
-html
-  overflow: hidden
-
 body
   width: 100%
   position: relative
 
-#bg-grid
-  height: $row-height
-  border: solid #fff
-  border-width: 1px 0
-  width: 100%
-  position: absolute
-  margin-top: 40px
-
 #scroller
-  overflow: hidden
   position: absolute
   top: 0
   height: 100%
@@ -37,31 +25,34 @@ body
   display: block
   height: 55px
   width: 55px
-  background: #fff url(../img/ajax-loader.gif) no-repeat
+  background: #fff image_url("ajax-loader.gif") no-repeat
 
 ul[role=navigation]
   text-transform: uppercase
     
 body
   background-color: $body-background-color
+  background: image_url("ibg.png") center top
+
   #container
     +container
-    background: url(../img/bg.png)
+    background: image_url("bg.png")
     padding: 0 $blueprint-grid-margin $blueprint-grid-margin
     border-top: $lines-border-style
   #header, #footer
     +column($blueprint-grid-columns)
   #sidebar 
+    z-index: 1000
     +column(2)
-    position: fixed
     #sidebar-top
       padding-top: $top-padding
       position: relative
       +min-height(215px)
-      +column(2)
+      +column(1)
+      +append(1)
       #logo
         margin-left: 17px
-        background: #fff url(../img/logo.png) no-repeat
+        background: #fff image_url("logo.png") no-repeat
         height: 100px
         width: 100px
         a
@@ -72,6 +63,7 @@ body
       #main-nav
         position: absolute
         bottom: 0px
+        width: span(1)
         +menu-fonts
         li
           border-bottom: $lines-border-style

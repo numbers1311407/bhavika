@@ -1,8 +1,4 @@
 body.about {
-  #sidebar {
-    position: static;
-  }
-  
   .heading {
     @include column(3);
     @include min-height($row-height);

@@ -1,209 +1,132 @@
 - title: Identity
-  id: identity
-  description: Logo Design
-  slides:
-    - src: img/projects/logos/logos1.jpg
-      title: Logo 1
-      alt: Logo 1
-      description: Creative Dialogue
-    - src: img/projects/logos/logos2.jpg
-      title: Logo 2
-      alt: Logo 2
-      description: Naples 45
-    - src: img/projects/logos/logos3.jpg
-      title: Logo 3
-      alt: Logo 3
-      description: Bombay Natural History Society
-    - src: img/projects/logos/logos4.jpg
-      title: Logo 4
-      alt: Logo 4
-      description: Arham
-    - src: img/projects/logos/logos5.jpg
-      title: Logo 5
-      alt: Logo 5
-      description: Art
-    - src: img/projects/logos/logos6.jpg
-      title: Logo 6
-      alt: Logo 6
-      description: Sign Up
-    - src: img/projects/logos/logos7.jpg
-      title: Logo 7
-      alt: Logo 7
-      description: Mark For Honeywell 50th Anniversary
-    - src: img/projects/logos/logos8.jpg
-      title: Logo 8
-      alt: Logo 8
-      description: Empathy
-    - src: img/projects/logos/logos9.jpg
-      title: Logo 9
-      alt: Logo 9
-      description: Center for Workplace Innovation      
-- title: Branding
-  id: branding
-  description: Arenson Furnishing
-  slides:
-    - src: img/projects/arenson/arenson1.jpg
-      title: Logo Design
-      alt: Logo Design
-      description: Arenson Logo
-    - src: img/projects/arenson/arenson2.jpg
-      title: Arenson Mark
-      alt: Arenson Mark
-      description: Arenson Mark
-    - src: img/projects/arenson/arenson3.jpg
-      title: Stationery
-      alt: Stationery
-      description: Envelope Design
-    - src: img/projects/arenson/arenson4.jpg
-      title: Arenson Van
-      alt: Arenson Van
-      description: Arenson Van
-    - src: img/projects/arenson/arenson5.jpg
-      title: Arenson
-      alt: logos classique
-      description: logos classique
-    - src: img/projects/arenson/arenson6.jpg
-      title: logos empathy
-      alt: logos empathy
-      description: logos empathy
-    - src: img/projects/arenson/arenson7.jpg
-      title: logos glovista
-      alt: logos glovista
-      description: logos glovista 
-- title: Interface
-  id: interface
-  description: Wurth
-  slides:
-    - src: img/projects/wurth/wurth1.jpg
-      title: md report 1
-      alt: md report 1
-      description: md report 1
-    - src: img/projects/wurth/wurth2.jpg
-      title: md report 2
-      alt: md report 2
-      description: md report 2
-    - src: img/projects/wurth/wurth3.jpg
-      title: md report 3
-      alt: md report 3
-      description: md report 3
-    - src: img/projects/wurth/wurth4.jpg
-      title: md report 3
-      alt: md report 3
-      description: md report 3
-    - src: img/projects/wurth/wurth5.jpg
-      title: md report 3
-      alt: md report 3
-      description: md report 3     
-- title: Editorial 
-  id: editorial
-  description: MD Year In Review
-  slides:
-    - src: img/projects/md_report/md_report1.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/md_report/md_report2.jpg
-      title: pratt news 2 title
-      alt: pratt news 2 alt
-      description: pratt news 2 description
-    - src: img/projects/md_report/md_report3.jpg
-      title: pratt news 3 title
-      alt: pratt news 3 alt
-      description: pratt news 3 description
-    - src: img/projects/md_report/md_report4.jpg
-      title: pratt news 3 title
-      alt: pratt news 3 alt
-      description: pratt news 3 description
-    - src: img/projects/md_report/md_report5.jpg
-      title: pratt news 3 title
-      alt: pratt news 3 alt
-      description: pratt news 3 description
-    - src: img/projects/md_report/md_report6.jpg
-      title: pratt news 3 title
-      alt: pratt news 3 alt
-      description: pratt news 3 description
-    - src: img/projects/md_report/md_report7.jpg
-      title: pratt news 3 title
-      alt: pratt news 3 alt
-      description: pratt news 3 description 
-- title: Typography
-  id: typography
-  description: Whats up?
-  slides:
-    - src: img/projects/dance/dance1.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/dance/dance2.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/dance/dance3.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/dance/dance4.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/dance/dance5.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/dance/dance6.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/dance/dance7.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/dance/dance8.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/dance/dance9.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description     
-- title: Print
-  id: print
-  description: Intuvue
-  slides:
-    - src: img/projects/intuvue/intuvue1.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/intuvue/intuvue2.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/intuvue/intuvue3.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/intuvue/intuvue4.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/intuvue/intuvue5.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/intuvue/intuvue6.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-    - src: img/projects/intuvue/intuvue7.jpg
-      title: pratt news 1 title
-      alt: pratt news 1 alt
-      description: pratt news 1 description
-
-      
-      
-      
-      
-      
-
-
-
+  projects:
+    - title: Identity1
+      id: identity
+      next: branding
+      description: Arenson Desc
+      slides:
+        - src: images/projects/arenson/3.jpg
+          title: arenson 3
+          alt: arenson 3
+          description: arenson 3 desc
+        - src: images/projects/arenson/4.jpg
+          title: arenson 4
+          alt: arenson 4
+          description: arenson 4 desc
+        - src: images/projects/arenson/5.jpg
+          title: arenson 5
+          alt: arenson 5
+          description: arenson 5 desc
+        - src: images/projects/arenson/6.jpg
+          title: arenson 6
+          alt: arenson 6
+          description: arenson 1 desc
+        - src: images/projects/arenson/logo.jpg
+          title: arenson logo
+          alt: arenson logo
+          description: arenson 1 desc
+        - src: images/projects/arenson/sign.jpg
+          title: arenson sign
+          alt: arenson sign
+          description: arenson sign desc
+    - title: Branding
+      id: branding
+      previous: identity
+      next: interface
+      description: logos description
+      slides:
+        - src: images/projects/logos/50_honeywell.jpg
+          title: logos 50_honeywell
+          alt: logos 50_honeywell
+          description: logos 50_honeywell
+        - src: images/projects/logos/art_logo.jpg
+          title: logos art_logo
+          alt: logos art_logo
+          description: logos art_logo
+        - src: images/projects/logos/cd_logo.jpg
+          title: logos cd_logo
+          alt: logos cd_logo
+          description: logos cd_logo
+        - src: images/projects/logos/center4innov.jpg
+          title: logos center4innov
+          alt: logos center4innov
+          description: logos center4innov
+        - src: images/projects/logos/classique.jpg
+          title: logos classique
+          alt: logos classique
+          description: logos classique
+        - src: images/projects/logos/empathy.jpg
+          title: logos empathy
+          alt: logos empathy
+          description: logos empathy
+        - src: images/projects/logos/glovista.jpg
+          title: logos glovista
+          alt: logos glovista
+          description: logos glovista
+        - src: images/projects/logos/hsbc.jpg
+          title: logos hsbc
+          alt: logos hsbc
+          description: logos hsbc
+        - src: images/projects/logos/signup_logo.jpg
+          title: logos signup_logo
+          alt: logos signup_logo
+          description: logos signup_logo
+- title: Category 2
+  projects: 
+    - title: Interface
+      id: interface
+      description: md report
+      previous: branding
+      next: corporate
+      slides:
+        - src: images/projects/md_report/1.jpg
+          title: md report 1
+          alt: md report 1
+          description: md report 1
+        - src: images/projects/md_report/2.jpg
+          title: md report 2
+          alt: md report 2
+          description: md report 2
+        - src: images/projects/md_report/3.jpg
+          title: md report 3
+          alt: md report 3
+          description: md report 3
+    - title: Corporate
+      id: corporate
+      previous: interface
+      next: editorial
+      description: pratt news
+      slides:
+        - src: images/projects/pratt_news/1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/pratt_news/2.jpg
+          title: pratt news 2 title
+          alt: pratt news 2 alt
+          description: pratt news 2 description
+        - src: images/projects/pratt_news/3.jpg
+          title: pratt news 3 title
+          alt: pratt news 3 alt
+          description: pratt news 3 description
+    - title: Editorial
+      id: editorial
+      previous: corporate
+      next: experimental
+      description: editorial 
+      slides:
+        - src: images/projects/pratt_news/1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+- title: Category 3
+  projects:
+    - title: Experimental
+      id: experimental
+      previous: editorial
+      description: experimental
+      slides:
+        - src: images/projects/pratt_news/1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description

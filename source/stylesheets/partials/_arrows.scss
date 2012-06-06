@@ -1,0 +1,64 @@
+.project {
+  &.current .nav { display: block; }
+
+  .nav {
+    display: none;
+
+    // .nav-top, .nav-bottom, .nav-left, .nav-right {
+    .nav-left, .nav-right {
+      position: absolute;
+      cursor: pointer;
+      text-indent: -999em;
+    }
+
+    // .nav-top, .nav-bottom, .nav-left span, .nav-right span {
+    .nav-left span, .nav-right span {
+      background: transparent image_url("arrows.png") no-repeat;
+    }
+
+    // .nav-top, .nav-bottom {
+    //   left: 300px;
+    // }
+
+    // .nav-bottom, .nav-top {
+    //   height: 25px;
+    //   width: 435px;
+    // }
+
+    .nav-left, .nav-right {
+      height: 335px;
+      width: 217px + 25px;
+      top: 0;
+      span {
+        display: block;
+        height: inherit;
+        width: 25px;
+      }
+    }
+
+    // .nav-top {
+    //   background-position: center top;
+    //   top: -25px;
+    // }
+
+    // .nav-bottom {
+    //   background-position: center bottom;
+    //   bottom: -25px;
+    // }
+
+    .nav-left {
+      left: 300px - 25px;;
+      span {
+        background-position: left center;
+      }
+    }
+
+    .nav-right {
+      left: 300px + 218px;
+      span {
+        float: right;
+        background-position: right center;
+      }
+    }
+  }
+}

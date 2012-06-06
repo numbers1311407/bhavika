@@ -5,7 +5,7 @@ var BP = {
   pCount: null,
   currentProject: null,
   projectEls: null,
-  projects: JSON.parse("<%= js_escape_html(data.projects.to_json) %>"),
+  projects: JSON.parse("<%= js_escape_html(flattened_projects.to_json) %>"),
 
   render: function(el, data, partialRender) {
     el.empty();
@@ -13,18 +13,22 @@ var BP = {
 
     if (!partialRender) { 
       el.data('rendered', true);
-      $('.slide', el).first().addClass('current');
+
+      $('.slide', el)
+        .last().addClass('last').end()
+        .first().addClass('current first');
     }
   },
 
-  scrollTo: function(el, firstLoad) {
+  scrollTo: function(el, firstLoad, cb) {
     var pos = el.position(), t = pos.top - 25;
 
     // we don't animate on first load
     if (firstLoad) {
       BP.scroller.scrollTop(t);
+      cb();
     } else {
-      BP.scroller.stop().animate({scrollTop: t}, <%= data.site.animation_speed %>);
+      BP.scroller.stop().animate({scrollTop: t}, <%= data.site.animation_speed %>, cb);
     }
   },
 
@@ -43,6 +47,10 @@ var BP = {
     var firstLoad   = !BP.pCount,
         projectData = BP.getProjectData(id),
         projectEl   = $('#'+projectData.id);
+
+    $('.project img').stop().animate({opacity: 0.65}, 250, function() {
+      $('img', projectEl).stop().animate({opacity: 1}, 250);
+    });
 
     if (!projectEl.data('rendered')) {
       BP.render(projectEl, projectData);
@@ -66,17 +74,17 @@ var BP = {
         });
     }
 
-    BP.scrollTo(projectEl, firstLoad);
+    BP.scrollTo(projectEl, firstLoad, function() {
+      $('#sub-nav li')
+        .removeClass('current')
+        .filter('.'+projectData.id).addClass('current');
 
-    $('#sub-nav li')
-      .removeClass('current')
-      .siblings('.'+projectData.id).addClass('current');
+      projectEl
+        .addClass('current')
+        .siblings().removeClass('current');
 
-    projectEl
-      .addClass('current')
-      .siblings().removeClass('current');
-
-    BP.currentProject = projectEl;
+      BP.currentProject = projectEl;
+    });
   },
 
   load: function() {
@@ -95,27 +103,37 @@ var BP = {
   _hScroll: function(dir) {
     return function() {
       if (BP.currentProject) {
-        $('.slide.current', BP.currentProject)[dir]().each(function(i, s) {
-          s = $(s);
+        var target = $('.slide.current', BP.currentProject)[dir]();
 
-          s.closest('.slides').animate({left: s.position().left * -1}, <%= data.site.animation_speed %>, function() {
-            s.addClass('current').siblings().removeClass('current');
+        if (target.length) {
+          target.closest('.slides').animate({left: target.position().left * -1}, <%= data.site.animation_speed %>, function() {
+            target.addClass('current').siblings().removeClass('current');
           });
-        });
+        } else {
+          console.log("No " + dir);
+        }
       }
     }
   },
 
   init: function() {
 
-    var arrowu = $('<div class="arrow" id="arrow-u" />').click(BP._vScroll('prev')),
-        arrowd = $('<div class="arrow" id="arrow-d" />').click(BP._vScroll('next')),
-        arrowl = $('<div class="arrow" id="arrow-l" />').click(BP._hScroll('prev')),
-        arrowr = $('<div class="arrow" id="arrow-r" />').click(BP._hScroll('next'));
+//    var arrowu = $('<div class="arrow" id="arrow-u" />').click(BP._vScroll('prev')),
+//        arrowd = $('<div class="arrow" id="arrow-d" />').click(BP._vScroll('next')),
+//        arrowl = $('<div class="arrow" id="arrow-l" />').click(BP._hScroll('prev')),
+//        arrowr = $('<div class="arrow" id="arrow-r" />').click(BP._hScroll('next'));
+//    $('<div class="arrows" />')
+//      .append(arrowu, arrowd, arrowl, arrowr)
+//      .appendTo('#container');
 
-    $('<div class="arrows" />')
-      .append(arrowu, arrowd, arrowl, arrowr)
-      .appendTo('#container');
+    $('.nav-left').live('click', function() {
+      BP._hScroll('prev')();
+    });
+
+    $('.nav-right').live('click', function() {
+      BP._hScroll('next')();
+    });
+
 
     $(window).bind('hashchange', BP.load);
     $(window).resize(BP.resize);
@@ -132,4 +150,4 @@ var BP = {
   }
 }
 
-$(BP.init)
+$(BP.init);
