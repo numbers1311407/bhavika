@@ -15,45 +15,6 @@ body.home
   #scroller
     overflow: hidden
 
-  .arrows
-    top: 0
-    +column(6, true)
-    margin-left: -442px
-    left: 50%
-    position: fixed
-  .arrow
-    background: red
-    cursor: pointer
-    position: absolute
-  #arrow-l, #arrow-r
-    height: 43px
-    width: 29px
-    top: 180px
-  #arrow-u, #arrow-d
-    height: 29px
-    width: 43px
-    top: 345px
-  #arrow-l
-    left: 245px
-    background: url('../img/red_arrow.png') no-repeat -185px -276px
-    width: 29px
-    height: 43px
-  #arrow-r
-    right: 98px
-    background: url('../img/red_arrow.png') no-repeat -254px -276px
-    width: 29px
-    height: 43px
-  #arrow-u
-    right: 85px
-    background: url('../img/red_arrow.png') no-repeat -185px -344px
-    width: 43px
-    height: 29px
-  #arrow-d
-    right: 35px
-    background: url('../img/red_arrow.png') no-repeat -242px -344px
-    width: 43px
-    height: 29px
-
   .slides, .project-description
     height: 335px
   .slide
@@ -79,9 +40,9 @@ body.home
     +column(3)
     display: inline
     float: left
-    width: span(3) - 1px
-    border-right: 1px solid #ccc
-    margin-right: 15px
+    width: span(3)
+    border-right: 1px solid #ddd
+    margin-right: 14px
     position: relative
     height: 335px
     margin-left: $blueprint-grid-outer-width * 2

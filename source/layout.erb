@@ -52,15 +52,8 @@
       <div id="sidebar-bottom">
         <div id="sub-nav">
           <ul role="navigation">
-            <% data.projects.each do |category| %>
-              <li class="project-category">
-                <span><%= category.title %></span>
-                <ul role="navigation">
-                  <% category.projects.each do |project| %>
-                    <li class="<%= project.id %>"><a href="/#/<%= project.id %>"><%= project.title %></a></li>
-                  <% end %>
-                </ul>
-              </li>
+            <% data.projects.each do |category|; project = category.projects[0] %>
+	      <li class="<%= project.id %>"><a href="/#/<%= project.id %>"><%= category.title %></a></li>
             <% end %>
           </ul>
         </div>
