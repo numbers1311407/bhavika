@@ -1,20 +1,39 @@
 .project {
-  &.current .nav { display: block; }
+  &.current .nav { 
+    display: block;
+  }
+
+  &.first .nav-left {
+    display: none;
+  }
+
+  &.last .nav-right {
+    display: none;
+  }
 
   .nav {
     display: none;
+    // .nav-top {
+    //   background-position: center top;
+    //   top: -25px;
+    // }
+
+    // .nav-bottom {
+    //   background-position: center bottom;
+    //   bottom: -25px;
+    // }
 
     // .nav-top, .nav-bottom, .nav-left, .nav-right {
-    .nav-left, .nav-right {
-      position: absolute;
-      cursor: pointer;
-      text-indent: -999em;
-    }
+    // .nav-left, .nav-right {
+    //   position: absolute;
+    //   cursor: pointer;
+    //   text-indent: -999em;
+    // }
 
     // .nav-top, .nav-bottom, .nav-left span, .nav-right span {
-    .nav-left span, .nav-right span {
-      background: transparent image_url("arrows.png") no-repeat;
-    }
+    // .nav-left span, .nav-right span {
+    //   background: transparent image_url("arrows.png") no-repeat;
+    // }
 
     // .nav-top, .nav-bottom {
     //   left: 300px;
@@ -26,38 +45,34 @@
     // }
 
     .nav-left, .nav-right {
+
+      position: absolute;
+      cursor: pointer;
+      text-indent: -999em;
       height: 335px;
       width: 217px + 25px;
       top: 0;
+
       span {
+        background: transparent image_url("arrows.png") no-repeat;
         display: block;
         height: inherit;
         width: 25px;
       }
-    }
 
-    // .nav-top {
-    //   background-position: center top;
-    //   top: -25px;
-    // }
-
-    // .nav-bottom {
-    //   background-position: center bottom;
-    //   bottom: -25px;
-    // }
-
-    .nav-left {
-      left: 300px - 25px;;
-      span {
-        background-position: left center;
+      &.nav-left {
+        left: 300px - 25px;;
+        span {
+          background-position: left center;
+        }
       }
-    }
 
-    .nav-right {
-      left: 300px + 218px;
-      span {
-        float: right;
-        background-position: right center;
+      &.nav-right {
+        left: 300px + 217px;
+        span {
+          float: right;
+          background-position: right center;
+        }
       }
     }
   }
