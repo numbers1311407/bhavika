@@ -5,128 +5,719 @@
       next: branding
       description: Arenson Desc
       slides:
-        - src: images/projects/arenson/3.jpg
+        - src: images/projects/logos/logos1.jpg
           title: arenson 3
           alt: arenson 3
           description: arenson 3 desc
-        - src: images/projects/arenson/4.jpg
+        - src: images/projects/logos/logos2.jpg
           title: arenson 4
           alt: arenson 4
           description: arenson 4 desc
-        - src: images/projects/arenson/5.jpg
+        - src: images/projects/logos/logos3.jpg
           title: arenson 5
           alt: arenson 5
           description: arenson 5 desc
-        - src: images/projects/arenson/6.jpg
+        - src: images/projects/logos/logos4.jpg
           title: arenson 6
           alt: arenson 6
           description: arenson 1 desc
-        - src: images/projects/arenson/logo.jpg
+        - src: images/projects/logos/logos5.jpg
           title: arenson logo
           alt: arenson logo
           description: arenson 1 desc
-        - src: images/projects/arenson/sign.jpg
+        - src: images/projects/logos/logos6.jpg
           title: arenson sign
           alt: arenson sign
           description: arenson sign desc
-    - title: Branding
-      id: branding
-      previous: identity
-      next: interface
-      description: logos description
-      slides:
-        - src: images/projects/logos/50_honeywell.jpg
-          title: logos 50_honeywell
-          alt: logos 50_honeywell
-          description: logos 50_honeywell
-        - src: images/projects/logos/art_logo.jpg
-          title: logos art_logo
-          alt: logos art_logo
-          description: logos art_logo
-        - src: images/projects/logos/cd_logo.jpg
-          title: logos cd_logo
-          alt: logos cd_logo
-          description: logos cd_logo
-        - src: images/projects/logos/center4innov.jpg
-          title: logos center4innov
-          alt: logos center4innov
-          description: logos center4innov
-        - src: images/projects/logos/classique.jpg
-          title: logos classique
-          alt: logos classique
-          description: logos classique
-        - src: images/projects/logos/empathy.jpg
-          title: logos empathy
-          alt: logos empathy
-          description: logos empathy
-        - src: images/projects/logos/glovista.jpg
-          title: logos glovista
-          alt: logos glovista
-          description: logos glovista
-        - src: images/projects/logos/hsbc.jpg
-          title: logos hsbc
-          alt: logos hsbc
-          description: logos hsbc
-        - src: images/projects/logos/signup_logo.jpg
-          title: logos signup_logo
-          alt: logos signup_logo
-          description: logos signup_logo
-- title: Category 2
+        - src: images/projects/logos/logos7.jpg
+          title: arenson sign
+          alt: arenson sign
+          description: arenson sign desc
+        - src: images/projects/logos/logos8.jpg
+          title: arenson sign
+          alt: arenson sign
+          description: arenson sign desc
+        - src: images/projects/logos/logos9.jpg
+          title: arenson sign
+          alt: arenson sign
+          description: arenson sign desc
+- title: Branding
   projects: 
-    - title: Interface
-      id: interface
-      description: md report
+    - title: Branding1
+      id: branding1
+      description: arenson
       previous: branding
-      next: corporate
+      next: branding2
       slides:
-        - src: images/projects/md_report/1.jpg
+        - src: images/projects/arenson/arenson1.jpg
           title: md report 1
           alt: md report 1
           description: md report 1
-        - src: images/projects/md_report/2.jpg
+        - src: images/projects/arenson/arenson2.jpg
           title: md report 2
           alt: md report 2
           description: md report 2
-        - src: images/projects/md_report/3.jpg
+        - src: images/projects/arenson/arenson3.jpg
           title: md report 3
           alt: md report 3
           description: md report 3
-    - title: Corporate
-      id: corporate
-      previous: interface
-      next: editorial
-      description: pratt news
+        - src: images/projects/arenson/arenson4.jpg
+          title: md report 3
+          alt: md report 3
+          description: md report 3
+        - src: images/projects/arenson/arenson5.jpg
+          title: md report 3
+          alt: md report 3
+        - src: images/projects/arenson/arenson6.jpg
+          title: md report 3
+          alt: md report 3
+        - src: images/projects/arenson/arenson7.jpg
+          title: md report 3
+          alt: md report 3
+          description: md report 3
+    - title: Branding2
+      id: branding2
+      previous: branding1
+      next: Branding3
+      description: SignUp
       slides:
-        - src: images/projects/pratt_news/1.jpg
+        - src: images/projects/signup/signup1.jpg
           title: pratt news 1 title
           alt: pratt news 1 alt
           description: pratt news 1 description
-        - src: images/projects/pratt_news/2.jpg
+        - src: images/projects/signup/signup2.jpg
           title: pratt news 2 title
           alt: pratt news 2 alt
           description: pratt news 2 description
-        - src: images/projects/pratt_news/3.jpg
+        - src: images/projects/signup/signup3.jpg
           title: pratt news 3 title
           alt: pratt news 3 alt
           description: pratt news 3 description
-    - title: Editorial
-      id: editorial
-      previous: corporate
-      next: experimental
-      description: editorial 
+        - src: images/projects/signup/signup4.jpg
+          title: pratt news 3 title
+          alt: pratt news 3 alt
+          description: pratt news 3 description
+        - src: images/projects/signup/signup5.jpg
+          title: pratt news 3 title
+          alt: pratt news 3 alt
+          description: pratt news 3 description
+        - src: images/projects/signup/signup6.jpg
+          title: pratt news 3 title
+          alt: pratt news 3 alt
+          description: pratt news 3 description
+        - src: images/projects/signup/signup7.jpg
+          title: pratt news 3 title
+          alt: pratt news 3 alt
+          description: pratt news 3 description
+        - src: images/projects/signup/signup8.jpg
+          title: pratt news 3 title
+          alt: pratt news 3 alt
+          description: pratt news 3 description
+    - title: Branding3
+      id: branding3
+      previous: branding2
+      next: branding4
+      description: Aura 
       slides:
-        - src: images/projects/pratt_news/1.jpg
+        - src: images/projects/aura/aura1.jpg
           title: pratt news 1 title
           alt: pratt news 1 alt
           description: pratt news 1 description
-- title: Category 3
+        - src: images/projects/aura/aura2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/aura/aura3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/aura/aura4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/aura/aura5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/aura/aura6.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/aura/aura7.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/aura/aura8.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/aura/aura9.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+    - title: Branding4
+      id: branding4
+      previous: branding3
+      next: interface
+      description: HSBC 
+      slides:
+        - src: images/projects/hsbc/hsbc1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hsbc/hsbc2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hsbc/hsbc3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hsbc/hsbc4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hsbc/hsbc5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hsbc/hsbc1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description         
+- title: Interface
   projects:
-    - title: Experimental
-      id: experimental
-      previous: editorial
-      description: experimental
+    - title: Interface1
+      id: interface1
+      previous: branding3
+      next: interface2
+      description: Wurth
       slides:
-        - src: images/projects/pratt_news/1.jpg
+        - src: images/projects/wurth/wurth1.jpg
           title: pratt news 1 title
           alt: pratt news 1 alt
           description: pratt news 1 description
+        - src: images/projects/wurth/wurth2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/wurth/wurth3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/wurth/wurth4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/wurth/wurth5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+    - title: Interface2
+      id: interface2
+      previous: branding3
+      next: editiorial
+      description: ATR 
+      slides:
+        - src: images/projects/atr/atr1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/atr/atr2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/atr/atr3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/atr/atr4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/atr/atr5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+- title: Editorial
+  projects:
+    - title: Editorial1
+      id: editorial1
+      previous: interface2
+      next: editorial2
+      description: MD Report
+      slides:
+        - src: images/projects/md_report/md_report1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/md_report/md_report2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/md_report/md_report3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/md_report/md_report4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/md_report/md_report5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/md_report/md_report6.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/md_report/md_report7.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+    - title: Editorial2
+      id: editorial2
+      previous: editorial1
+      next: editorial3
+      description: Black & White
+      slides:
+        - src: images/projects/bw/bw1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/bw/bw2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/bw/bw3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/bw/bw4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/bw/bw5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/bw/bw6.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/bw/bw7.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/bw/bw8.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+    - title: Editorial3
+      id: editorial3
+      previous: editorial2
+      next: editorial4
+      description: Aids Task Force
+      slides:
+        - src: images/projects/aidstask/aidstask1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/aidstask/aidstask2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/aidstask/aidstask3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/aidstask/aidstask4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/aidstask/aidstask5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/aidstask/aidstask6.jpg
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+    - title: Editorial4
+      id: editorial4
+      previous: editorial3
+      next: editorial5
+      description: Pratt Newsletter
+      slides:
+        - src: images/projects/pratt_news/pratt_news1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/pratt_news/pratt_news2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/pratt_news/pratt_news3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/pratt_news/pratt_news4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/pratt_news/pratt_news5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/pratt_news/pratt_news6.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/pratt_news/pratt_news7.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+    - title: Editorial5
+      id: editorial5
+      previous: editorial4
+      next: typography1
+      description: Honeywell Energy
+      slides:
+        - src: images/projects/hw_energy/hw_energy1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hw_energy/hw_energy2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hw_energy/hw_energy3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hw_energy/hw_energy4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+- title: Typography
+  projects:
+    - title: Typography1
+      id: typography1
+      previous: editorial5
+      next: typography2
+      description: Dance Scope
+      slides:
+        - src: images/projects/dance/dance1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/dance/dance2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/dance/dance3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/dance/dance4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/dance/dance5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/dance/dance6.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/dance/dance7.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/dance/dance8.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/dance/dance9.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+    - title: Typography2
+      id: typography2
+      previous: typography1
+      next: typography3
+      description: Etiquettes Book
+      slides:
+        - src: images/projects/etiquettes/etiquettes1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/etiquettes/etiquettes2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/etiquettes/etiquettes3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/etiquettes/etiquettes4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/etiquettes/etiquettes5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/etiquettes/etiquettes6.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/etiquettes/etiquettes7.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/etiquettes/etiquettes8.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+    - title: Typography3
+      id: typography3
+      previous: typography2
+      next: print1
+      description: Word Expression
+      slides:
+        - src: images/projects/typo/typo1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/typo/typo2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/typo/typo3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/typo/typo4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/typo/typo5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/typo/typo6.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/typo/typo7.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+- title: Print
+  projects:
+    - title: Print1
+      id: print1
+      previous: typography3
+      next: print2
+      description: Intuvue
+      slides:
+        - src: images/projects/intuvue/intuvue1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/intuvue/intuvue2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/intuvue/intuvue3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/intuvue/intuvue4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/intuvue/intuvue5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/intuvue/intuvue6.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description 
+        - src: images/projects/intuvue/intuvue7.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+    - title: Print2
+      id: print2
+      previous: print1
+      next: print3
+      description: MD Holiday Card
+      slides:
+        - src: images/projects/md_joy/md_joy1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/md_joy/md_joy2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/md_joy/md_joy3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/md_joy/md_joy4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+    - title: Print3
+      id: print3
+      previous: print2
+      next: print4
+      description: Naples 45 Menu
+      slides:
+        - src: images/projects/naples/naples1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/naples/naples2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/naples/naples3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/naples/naples4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+    - title: Print4
+      id: print4
+      previous: print3
+      next: print5
+      description: HSM
+      slides:
+        - src: images/projects/hsm/hsm1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hsm/hsm2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hsm/hsm3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hsm/hsm4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hsm/hsm5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/hsm/hsm6.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+    - title: Print5
+      id: print5
+      previous: print4
+      next: print6
+      description: Japan
+      slides:
+        - src: images/projects/japan/japan1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/japan/japan2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/japan/japan3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/japan/japan4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/japan/japan5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/japan/japan6.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+    - title: Print6
+      id: print6
+      previous: print5
+      next: print7
+      description: Color Matters
+      slides:
+        - src: images/projects/colormatters/colormatters1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/colormatters/colormatters2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/colormatters/colormatters3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/colormatters/colormatters4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/colormatters/colormatters5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/colormatters/colormatters6.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+    - title: Print7
+      id: print7
+      previous: print6
+      next: 
+      description: Disney
+      slides:
+        - src: images/projects/disney/disney1.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/disney/disney2.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/disney/disney3.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/disney/disney4.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/disney/disney5.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/disney/disney6.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+        - src: images/projects/disney/disney7.jpg
+          title: pratt news 1 title
+          alt: pratt news 1 alt
+          description: pratt news 1 description
+
+
+          
