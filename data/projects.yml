@@ -3,44 +3,44 @@
     - title: Identity1
       id: identity
       next: branding
-      description: Arenson Desc
+      description: Logo Design
       slides:
         - src: images/projects/logos/logos1.jpg
-          title: arenson 3
-          alt: arenson 3
-          description: arenson 3 desc
+          title: logo1
+          alt: logo1
+          description: logo1
         - src: images/projects/logos/logos2.jpg
-          title: arenson 4
-          alt: arenson 4
-          description: arenson 4 desc
+          title: logo2
+          alt: logo2
+          description: logo2
         - src: images/projects/logos/logos3.jpg
-          title: arenson 5
-          alt: arenson 5
-          description: arenson 5 desc
+          title: logo3
+          alt: logo3
+          description: logo3
         - src: images/projects/logos/logos4.jpg
-          title: arenson 6
-          alt: arenson 6
-          description: arenson 1 desc
+          title: logo4
+          alt: logo4
+          description: logo4
         - src: images/projects/logos/logos5.jpg
-          title: arenson logo
-          alt: arenson logo
-          description: arenson 1 desc
+          title: logo5
+          alt: logo5
+          description: logo5
         - src: images/projects/logos/logos6.jpg
-          title: arenson sign
-          alt: arenson sign
-          description: arenson sign desc
+          title: logo6
+          alt: logo6
+          description: logo6
         - src: images/projects/logos/logos7.jpg
-          title: arenson sign
-          alt: arenson sign
-          description: arenson sign desc
+          title: logo7
+          alt: logo7
+          description: logo7
         - src: images/projects/logos/logos8.jpg
-          title: arenson sign
-          alt: arenson sign
-          description: arenson sign desc
+          title: logo8
+          alt: logo8
+          description: logo8
         - src: images/projects/logos/logos9.jpg
-          title: arenson sign
-          alt: arenson sign
-          description: arenson sign desc
+          title: logo9
+          alt: logo9
+          description: logo9
 - title: Branding
   projects: 
     - title: Branding1
@@ -50,31 +50,31 @@
       next: branding2
       slides:
         - src: images/projects/arenson/arenson1.jpg
-          title: md report 1
-          alt: md report 1
-          description: md report 1
+          title: arenson1
+          alt: arenson1
+          description: arenson1
         - src: images/projects/arenson/arenson2.jpg
-          title: md report 2
-          alt: md report 2
-          description: md report 2
+          title: arenson2
+          alt: arenson2
+          description: arenson2
         - src: images/projects/arenson/arenson3.jpg
-          title: md report 3
-          alt: md report 3
-          description: md report 3
+          title: arenson3
+          alt: arenson3
+          description: arenson3
         - src: images/projects/arenson/arenson4.jpg
-          title: md report 3
-          alt: md report 3
-          description: md report 3
+          title: arenson4
+          alt: arenson4
+          description: arenson4
         - src: images/projects/arenson/arenson5.jpg
-          title: md report 3
-          alt: md report 3
+          title: arenson5
+          alt: arenson5
         - src: images/projects/arenson/arenson6.jpg
-          title: md report 3
-          alt: md report 3
+          title: arenson6
+          alt: arenson6
         - src: images/projects/arenson/arenson7.jpg
-          title: md report 3
-          alt: md report 3
-          description: md report 3
+          title: arenson7
+          alt: arenson7
+          description: arenson7
     - title: Branding2
       id: branding2
       previous: branding1
@@ -82,37 +82,37 @@
       description: SignUp
       slides:
         - src: images/projects/signup/signup1.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: signup
+          alt: signup1
+          description: signup1
         - src: images/projects/signup/signup2.jpg
-          title: pratt news 2 title
-          alt: pratt news 2 alt
-          description: pratt news 2 description
+          title: signup2
+          alt: signup2
+          description: signup2
         - src: images/projects/signup/signup3.jpg
-          title: pratt news 3 title
-          alt: pratt news 3 alt
-          description: pratt news 3 description
+          title: signup3
+          alt: signup3
+          description: signup3
         - src: images/projects/signup/signup4.jpg
-          title: pratt news 3 title
-          alt: pratt news 3 alt
-          description: pratt news 3 description
+          title: signup4
+          alt: signup4
+          description: signup4
         - src: images/projects/signup/signup5.jpg
-          title: pratt news 3 title
-          alt: pratt news 3 alt
-          description: pratt news 3 description
+          title: signup5
+          alt: signup5
+          description: signup5
         - src: images/projects/signup/signup6.jpg
-          title: pratt news 3 title
-          alt: pratt news 3 alt
-          description: pratt news 3 description
+          title: signup6
+          alt: signup6
+          description: signup6
         - src: images/projects/signup/signup7.jpg
-          title: pratt news 3 title
-          alt: pratt news 3 alt
-          description: pratt news 3 description
+          title: signup7
+          alt: signup7
+          description: signup7
         - src: images/projects/signup/signup8.jpg
-          title: pratt news 3 title
-          alt: pratt news 3 alt
-          description: pratt news 3 description
+          title: signup8
+          alt: signup8
+          description: signup8
     - title: Branding3
       id: branding3
       previous: branding2
@@ -120,41 +120,41 @@
       description: Aura 
       slides:
         - src: images/projects/aura/aura1.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: aura1
+          alt: aura1
+          description: aura1
         - src: images/projects/aura/aura2.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: aura2
+          alt: aura2
+          description: aura2
         - src: images/projects/aura/aura3.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: aura3
+          alt: aura3
+          description: aura3
         - src: images/projects/aura/aura4.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: aura4
+          alt: aura4
+          description: aura4
         - src: images/projects/aura/aura5.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: aura5
+          alt: aura5
+          description: aura5
         - src: images/projects/aura/aura6.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: aura6
+          alt: aura6
+          description: aura6
         - src: images/projects/aura/aura7.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: aura7
+          alt: aura7
+          description: aura7
         - src: images/projects/aura/aura8.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: aura8
+          alt: aura8
+          description: aura8
         - src: images/projects/aura/aura9.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description 
+          title: aura9
+          alt: aura9
+          description: aura9 
     - title: Branding4
       id: branding4
       previous: branding3
@@ -162,37 +162,559 @@
       description: HSBC 
       slides:
         - src: images/projects/hsbc/hsbc1.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: hsbc1
+          alt: hsbc1
+          description: hsbc1
         - src: images/projects/hsbc/hsbc2.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: hsbc1
+          alt: hsbc1
+          description: hsbc1
         - src: images/projects/hsbc/hsbc3.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: hsbc1
+          alt: hsbc1
+          description: hsbc1
         - src: images/projects/hsbc/hsbc4.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: hsbc1
+          alt: hsbc1
+          description: hsbc1
         - src: images/projects/hsbc/hsbc5.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
-        - src: images/projects/hsbc/hsbc6.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description         
+          title: hsbc1
+          alt: hsbc1
+          description: hsbc1
+        - src: images/projects/hsbc/hsbc1.jpg
+          title: hsbc1
+          alt: hsbc1
+          description: hsbc1         
 - title: Interface
   projects:
     - title: Interface1
       id: interface1
       previous: branding3
+      next: interface2
       description: Wurth
       slides:
         - src: images/projects/wurth/wurth1.jpg
-          title: pratt news 1 title
-          alt: pratt news 1 alt
-          description: pratt news 1 description
+          title: wurth1
+          alt: wurth1
+          description: wurth1
+        - src: images/projects/wurth/wurth2.jpg
+          title: wurth1
+          alt: wurth1
+          description: wurth1
+        - src: images/projects/wurth/wurth3.jpg
+          title: wurth1
+          alt: wurth1
+          description: wurth1
+        - src: images/projects/wurth/wurth4.jpg
+          title: wurth1
+          alt: wurth1
+          description: wurth1
+        - src: images/projects/wurth/wurth5.jpg
+          title: wurth1
+          alt: wurth1
+          description: wurth1
+    - title: Interface2
+      id: interface2
+      previous: branding3
+      next: editiorial
+      description: ATR 
+      slides:
+        - src: images/projects/atr/atr1.jpg
+          title: atr1
+          alt: atr1
+          description: atr1
+        - src: images/projects/atr/atr2.jpg
+          title: atr1
+          alt: atr1
+          description: atr1
+        - src: images/projects/atr/atr3.jpg
+          title: atr1
+          alt: atr1
+          description: atr1
+        - src: images/projects/atr/atr4.jpg
+          title: atr1
+          alt: atr1
+          description: atr1
+        - src: images/projects/atr/atr5.jpg
+          title: atr1
+          alt: atr1
+          description: atr1
+- title: Editorial
+  projects:
+    - title: Editorial1
+      id: editorial1
+      previous: interface2
+      next: editorial2
+      description: MD Report
+      slides:
+        - src: images/projects/md_report/md_report1.jpg
+          title: md_report1
+          alt: md_report1
+          description: md_report1
+        - src: images/projects/md_report/md_report2.jpg
+          title: md_report1
+          alt: md_report1
+          description: md_report1
+        - src: images/projects/md_report/md_report3.jpg
+          title: md_report1
+          alt: md_report1
+          description: md_report1
+        - src: images/projects/md_report/md_report4.jpg
+          title: md_report1
+          alt: md_report1
+          description: md_report1
+        - src: images/projects/md_report/md_report5.jpg
+          title: md_report1
+          alt: md_report1
+          description: md_report1 
+        - src: images/projects/md_report/md_report6.jpg
+          title: md_report1
+          alt: md_report1
+          description: md_report1 
+        - src: images/projects/md_report/md_report7.jpg
+          title: md_report1
+          alt: md_report1
+          description: md_report1 
+    - title: Editorial2
+      id: editorial2
+      previous: editorial1
+      next: editorial3
+      description: Black & White
+      slides:
+        - src: images/projects/bw/bw1.jpg
+          title: bw1
+          alt: bw1
+          description: bw1
+        - src: images/projects/bw/bw2.jpg
+          title: bw2
+          alt: bw2
+          description: bw2
+        - src: images/projects/bw/bw3.jpg
+          title: bw3
+          alt: bw3
+          description: bw3
+        - src: images/projects/bw/bw4.jpg
+          title: bw4
+          alt: bw4
+          description: bw4
+        - src: images/projects/bw/bw5.jpg
+          title: bw5
+          alt: bw5
+          description: bw5 
+        - src: images/projects/bw/bw6.jpg
+          title: bw6
+          alt: bw6
+          description: bw6 
+        - src: images/projects/bw/bw7.jpg
+          title: bw7
+          alt: bw7
+          description: bw7
+        - src: images/projects/bw/bw8.jpg
+          title: bw8
+          alt: bw8
+          description: bw8
+    - title: Editorial3
+      id: editorial3
+      previous: editorial2
+      next: editorial4
+      description: Aids Task Force
+      slides:
+        - src: images/projects/aidstask/aidstask1.jpg
+          title: aidstask1
+          alt: aidstask1
+          description: aidstask1
+        - src: images/projects/aidstask/aidstask2.jpg
+          title: aidstask2
+          alt: aidstask2
+          description: aidstask2
+        - src: images/projects/aidstask/aidstask3.jpg
+          title: aidstask3
+          alt: aidstask3
+          description: aidstask3
+        - src: images/projects/aidstask/aidstask4.jpg
+          title: aidstask4
+          alt: aidstask4
+          description: aidstask4
+        - src: images/projects/aidstask/aidstask5.jpg
+          title: aidstask5
+          alt: aidstask5
+          description: aidstask5 
+        - src: images/projects/aidstask/aidstask6.jpg
+          alt: aidstask6
+          description: aidstask6 
+    - title: Editorial4
+      id: editorial4
+      previous: editorial3
+      next: editorial5
+      description: Pratt Newsletter
+      slides:
+        - src: images/projects/pratt_news/pratt_news1.jpg
+          title: pratt_news1
+          alt: pratt_news1
+          description: pratt_news1
+        - src: images/projects/pratt_news/pratt_news2.jpg
+          title: pratt_news2
+          alt: pratt_news2
+          description: pratt_news2
+        - src: images/projects/pratt_news/pratt_news3.jpg
+          title: pratt_news3
+          alt: pratt_news3
+          description: pratt_news3
+        - src: images/projects/pratt_news/pratt_news4.jpg
+          title: pratt_news4
+          alt: pratt_news4
+          description: pratt_news4
+        - src: images/projects/pratt_news/pratt_news5.jpg
+          title: pratt_news5
+          alt: pratt_news5
+          description: pratt_news5
+        - src: images/projects/pratt_news/pratt_news6.jpg
+          title: pratt_news6
+          alt: pratt_news6
+          description: pratt_news6
+        - src: images/projects/pratt_news/pratt_news7.jpg
+          title: pratt_news7
+          alt: pratt_news7
+          description: pratt_news7
+    - title: Editorial5
+      id: editorial5
+      previous: editorial4
+      next: typography1
+      description: Honeywell Energy
+      slides:
+        - src: images/projects/hw_energy/hw_energy1.jpg
+          title: hw_energy1
+          alt: hw_energy1
+          description: hw_energy1
+        - src: images/projects/hw_energy/hw_energy2.jpg
+          title: hw_energy2
+          alt: hw_energy2
+          description: hw_energy2
+        - src: images/projects/hw_energy/hw_energy3.jpg
+          title: hw_energy3
+          alt: hw_energy3
+          description: hw_energy3
+        - src: images/projects/hw_energy/hw_energy4.jpg
+          title: hw_energy4
+          alt: hw_energy4
+          description: hw_energy4
+- title: Typography
+  projects:
+    - title: Typography1
+      id: typography1
+      previous: editorial5
+      next: typography2
+      description: Dance Scope
+      slides:
+        - src: images/projects/dance/dance1.jpg
+          title: dance1
+          alt: dance1
+          description: dance1
+        - src: images/projects/dance/dance2.jpg
+          title: dance2
+          alt: dance2
+          description: dance2
+        - src: images/projects/dance/dance3.jpg
+          title: dance3
+          alt: dance3
+          description: dance3
+        - src: images/projects/dance/dance4.jpg
+          title: dance4
+          alt: dance4
+          description: dance4
+        - src: images/projects/dance/dance5.jpg
+          title: dance5
+          alt: dance5
+          description: dance5 
+        - src: images/projects/dance/dance6.jpg
+          title: dance6
+          alt: dance6
+          description: dance6 
+        - src: images/projects/dance/dance7.jpg
+          title: dance7
+          alt: dance7
+          description: dance7
+        - src: images/projects/dance/dance8.jpg
+          title: dance8
+          alt: dance8
+          description: dance8
+        - src: images/projects/dance/dance9.jpg
+          title: dance9
+          alt: dance9
+          description: dance9
+    - title: Typography2
+      id: typography2
+      previous: typography1
+      next: typography3
+      description: Etiquettes Book
+      slides:
+        - src: images/projects/etiquettes/etiquettes1.jpg
+          title: etiquettes1
+          alt: etiquettes1
+          description: etiquettes1
+        - src: images/projects/etiquettes/etiquettes2.jpg
+          title: etiquettes2
+          alt: etiquettes2
+          description: etiquettes2
+        - src: images/projects/etiquettes/etiquettes3.jpg
+          title: etiquettes3
+          alt: etiquettes3
+          description: etiquettes3
+        - src: images/projects/etiquettes/etiquettes4.jpg
+          title: etiquettes4
+          alt: etiquettes4
+          description: etiquettes4
+        - src: images/projects/etiquettes/etiquettes5.jpg
+          title: etiquettes5
+          alt: etiquettes5
+          description: etiquettes5 
+        - src: images/projects/etiquettes/etiquettes6.jpg
+          title: etiquettes6
+          alt: etiquettes6
+          description: etiquettes6 
+        - src: images/projects/etiquettes/etiquettes7.jpg
+          title: etiquettes7
+          alt: etiquettes7
+          description: etiquettes7
+        - src: images/projects/etiquettes/etiquettes8.jpg
+          title: etiquettes8
+          alt: etiquettes8
+          description: etiquettes8
+    - title: Typography3
+      id: typography3
+      previous: typography2
+      next: print1
+      description: Word Expression
+      slides:
+        - src: images/projects/typo/typo1.jpg
+          title: typo1
+          alt: typo1
+          description: typo1
+        - src: images/projects/typo/typo2.jpg
+          title: typo2
+          alt: typo2
+          description: typo2
+        - src: images/projects/typo/typo3.jpg
+          title: typo3
+          alt: typo3
+          description: typo3
+        - src: images/projects/typo/typo4.jpg
+          title: typo4
+          alt: typo4
+          description: typo4
+        - src: images/projects/typo/typo5.jpg
+          title: typo5
+          alt: typo5
+          description: typo5 
+        - src: images/projects/typo/typo6.jpg
+          title: typo6
+          alt: typo6
+          description: typo6 
+        - src: images/projects/typo/typo7.jpg
+          title: typo7
+          alt: typo7
+          description: typo7
+- title: Print
+  projects:
+    - title: Print1
+      id: print1
+      previous: typography3
+      next: print2
+      description: Intuvue
+      slides:
+        - src: images/projects/intuvue/intuvue1.jpg
+          title: intuvue1
+          alt: intuvue1
+          description: intuvue1
+        - src: images/projects/intuvue/intuvue2.jpg
+          title: intuvue2
+          alt: intuvue2
+          description: intuvue2
+        - src: images/projects/intuvue/intuvue3.jpg
+          title: intuvue3
+          alt: intuvue3
+          description: intuvue3
+        - src: images/projects/intuvue/intuvue4.jpg
+          title: intuvue4
+          alt: intuvue4
+          description: intuvue4
+        - src: images/projects/intuvue/intuvue5.jpg
+          title: intuvue5
+          alt: intuvue5
+          description: intuvue5 
+        - src: images/projects/intuvue/intuvue6.jpg
+          title: intuvue6
+          alt: intuvue6
+          description: intuvue6 
+        - src: images/projects/intuvue/intuvue7.jpg
+          title: intuvue7
+          alt: intuvue7
+          description: intuvue7
+    - title: Print2
+      id: print2
+      previous: print1
+      next: print3
+      description: MD Holiday Card
+      slides:
+        - src: images/projects/md_joy/md_joy1.jpg
+          title: md_joy1
+          alt: md_joy1
+          description: md_joy1
+        - src: images/projects/md_joy/md_joy2.jpg
+          title: md_joy2
+          alt: md_joy2
+          description: md_joy2
+        - src: images/projects/md_joy/md_joy3.jpg
+          title: md_joy3
+          alt: md_joy3
+          description: md_joy3
+        - src: images/projects/md_joy/md_joy4.jpg
+          title: md_joy4
+          alt: md_joy4
+          description: md_joy4
+    - title: Print3
+      id: print3
+      previous: print2
+      next: print4
+      description: Naples 45 Menu
+      slides:
+        - src: images/projects/naples/naples1.jpg
+          title: naples1
+          alt: naples1
+          description: naples1
+        - src: images/projects/naples/naples2.jpg
+          title: naples2
+          alt: naples2
+          description: naples2
+        - src: images/projects/naples/naples3.jpg
+          title: naples3
+          alt: naples3
+          description: naples3
+        - src: images/projects/naples/naples4.jpg
+          title: naples4
+          alt: naples4
+          description: naples4
+    - title: Print4
+      id: print4
+      previous: print3
+      next: print5
+      description: HSM
+      slides:
+        - src: images/projects/hsm/hsm1.jpg
+          title: hsm1
+          alt: hsm1
+          description: hsm1
+        - src: images/projects/hsm/hsm2.jpg
+          title: hsm2
+          alt: hsm2
+          description: hsm2
+        - src: images/projects/hsm/hsm3.jpg
+          title: hsm3
+          alt: hsm3
+          description: hsm3
+        - src: images/projects/hsm/hsm4.jpg
+          title: hsm4
+          alt: hsm4
+          description: hsm4
+        - src: images/projects/hsm/hsm5.jpg
+          title: hsm5
+          alt: hsm5
+          description: hsm5
+        - src: images/projects/hsm/hsm6.jpg
+          title: hsm6
+          alt: hsm6
+          description: hsm6
+    - title: Print5
+      id: print5
+      previous: print4
+      next: print6
+      description: Japan
+      slides:
+        - src: images/projects/japan/japan1.jpg
+          title: japan1
+          alt: japan1
+          description: japan1
+        - src: images/projects/japan/japan2.jpg
+          title: japan2
+          alt: japan2
+          description: japan2
+        - src: images/projects/japan/japan3.jpg
+          title: japan3
+          alt: japan3
+          description: japan3
+        - src: images/projects/japan/japan4.jpg
+          title: japan4
+          alt: japan4
+          description: japan4
+        - src: images/projects/japan/japan5.jpg
+          title: japan5
+          alt: japan5
+          description: japan5
+        - src: images/projects/japan/japan6.jpg
+          title: japan6
+          alt: japan6
+          description: japan6
+    - title: Print6
+      id: print6
+      previous: print5
+      next: print7
+      description: Color Matters
+      slides:
+        - src: images/projects/colormatters/colormatters1.jpg
+          title: colormatters1
+          alt: colormatters1
+          description: colormatters1
+        - src: images/projects/colormatters/colormatters2.jpg
+          title: colormatters1
+          alt: colormatters2
+          description: colormatters2
+        - src: images/projects/colormatters/colormatters3.jpg
+          title: colormatters3
+          alt: colormatters3
+          description: colormatters3
+        - src: images/projects/colormatters/colormatters4.jpg
+          title: colormatters4
+          alt: colormatters4
+          description: colormatters4
+        - src: images/projects/colormatters/colormatters5.jpg
+          title: colormatters5
+          alt: colormatters5
+          description: colormatters5
+        - src: images/projects/colormatters/colormatters6.jpg
+          title: colormatters6
+          alt: colormatters6
+          description: colormatters6
+    - title: Print7
+      id: print7
+      previous: print6
+      next: 
+      description: Disney
+      slides:
+        - src: images/projects/disney/disney1.jpg
+          title: disney1
+          alt: disney1
+          description: disney1
+        - src: images/projects/disney/disney2.jpg
+          title: disney2
+          alt: disney2
+          description: disney2
+        - src: images/projects/disney/disney3.jpg
+          title: disney3
+          alt: disney3
+          description: disney3
+        - src: images/projects/disney/disney4.jpg
+          title: disney4
+          alt: disney4
+          description: disney4
+        - src: images/projects/disney/disney5.jpg
+          title: disney5
+          alt: disney5
+          description: disney5
+        - src: images/projects/disney/disney6.jpg
+          title: disney6
+          alt: disney6
+          description: disney6
+        - src: images/projects/disney/disney7.jpg
+          title: disney7
+          alt: disney7
+          description: disney7
