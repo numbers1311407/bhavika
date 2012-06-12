@@ -1,0 +1,38 @@
+body {
+  &.fivecol {
+    .heading {
+      @include column(3);
+      @include min-height($row-height);
+    }
+    .body {
+      clear: both;
+      float: left;
+      @include column(5);
+      @include prepend(1);
+    }
+  }
+
+  &.threecol {
+    .heading {
+      @include column(3);
+      @include min-height($row-height);
+    }
+    .body {
+      float: left;
+      @include column(3, true);
+      @include prepend(1);
+    }
+  }
+
+  &.twocol {
+    .heading {
+      @include column(3);
+      @include min-height($row-height);
+    }
+    .body {
+      float: left;
+      @include column(2);
+      @include prepend(1);
+    }
+  }
+}
