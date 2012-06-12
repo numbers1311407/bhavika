@@ -1,6 +1,8 @@
 @import 'compass/utilities/general/clearfix'
 @import 'compass/css3/opacity'
 
+$border-color: #ccc
+
 #projects 
   padding-top: 30px
   a:focus
@@ -14,12 +16,17 @@ body.home
 
   #scroller
     overflow: hidden
-
+  .project
+    position: relative
+    margin-top: $blueprint-grid-margin
+    +pie-clearfix
   .slides, .project-description
     height: 335px
+  .project-description
+    +column(1, true)
   .slide
     float: left
-    border-right: 1px solid #ccc
+    border-right: 1px solid $border-color
     .image
       img
         width: +span(3)
@@ -40,21 +47,13 @@ body.home
     +column(3)
     display: inline
     float: left
-    width: span(3)
-    border-right: 1px solid #ddd
+    width: span(3) - 1px
+    border: 1px solid $border-color
+    border-width: 1px 1px 1px 0
     margin-right: 13px
     position: relative
     height: 335px
     margin-left: $blueprint-grid-outer-width * 2
     overflow: hidden
-  .project-description
-    +column(1, true)
-  .project
-    .slides-wrapper
-      @include opacity(0.65)
-    // &.current .slides-wrapper
-    //   @include opacity(1)
-
-    position: relative
-    margin-top: $blueprint-grid-margin
-    +pie-clearfix
+    // NOTE the "current" project will set the opacity of the slides-wrapper to 1
+    @include opacity(0.65)
