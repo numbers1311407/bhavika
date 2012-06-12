@@ -62,9 +62,13 @@ var BP = {
   _load: function(id) {
     var firstLoad   = !BP.pCount,
         projectData = BP.getProjectData(id),
-        projectEl   = $('#'+projectData.id);
+        projectEl;
 
-    console.dir(projectData);
+    if (!projectData) return false;
+
+    console.log(projectData);
+
+    projectEl = $('#'+projectData.id);
 
     projectEl.siblings().removeClass('current');
 
@@ -97,7 +101,8 @@ var BP = {
       // adjust current submenu
       $('#sub-nav li')
         .removeClass('current')
-        .filter('.'+projectData.id).addClass('current');
+        .filter(':contains("'+projectData.category+'")')
+          .addClass('current');
 
       $('.slides-wrapper', projectEl).animate({opacity: 1}, {
         duration: 250,
