@@ -1,16 +1,3 @@
-body.about {
-  #sidebar {
-    position: static;
-  }
-  
-  .heading {
-    @include column(3);
-    @include min-height($row-height);
-  }
-  .body.resume {
-    @include column(3);
-    @include prepend(1);
-    font-size: 10px;
-
-  }
+body.resume {
+  font-size: 10px;
 }

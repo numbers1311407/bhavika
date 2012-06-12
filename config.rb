@@ -54,6 +54,7 @@ require 'rgbapng'
 # Helpers
 ###
 
+
 # Methods defined in the helpers block are available in templates
 helpers do
   def meta_title
@@ -67,8 +68,8 @@ helpers do
   end
 
   def flattened_projects
-    data.projects.map do |category|
-      category.projects
+    data.projects.map do |cat|
+      cat.projects.map {|p| p[:category] = cat.title; p}
     end.flatten
   end
 end
