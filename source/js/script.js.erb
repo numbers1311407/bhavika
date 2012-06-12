@@ -1,10 +1,8 @@
 var BP = {
   scroller: null,
   pHeight: null,
-  sWidth: null,
   pCount: null,
   currentProject: null,
-  projectEls: null,
   projects: JSON.parse("<%= js_escape_html(flattened_projects.to_json) %>"),
 
   render: function(el, data, partialRender) {
@@ -28,7 +26,7 @@ var BP = {
       BP.scroller.scrollTop(t);
       if (cb) cb();
     } else {
-      BP.scroller.stop().animate({ scrollTop: t}, { 
+      BP.scroller.stop().animate({scrollTop: t}, { 
         duration: <%= data.site.animation.speed %>, 
         easing: "<%= data.site.animation.easing %>", 
         complete: cb
@@ -47,43 +45,53 @@ var BP = {
     return id ? _.find(BP.projects, function(p) { return p.id == id }) : BP.projects[0];
   },
 
-  animateOpacityTo: function(el) {
-    $('.project img').stop().animate({opacity: 0.65}, 250, function() {
-      $('img', el).stop().animate({opacity: 1}, 250);
-    });
-  },
-
-  loadAllExcept: function(exceptId) {
-    BP.projectEls = $('.project');
-    BP.pHeight = BP.projectEls.outerHeight(true);
-    BP.pCount  = BP.projectEls.length;
-    BP.resize();
-
+  preloadExcept: function(exceptId) {
     _(BP.projects).chain()
-      .filter(function(p) { return p.id != exceptId })
-      .each(function(pData) {
-        pData = _.clone(pData);
-        if (pData.slides) { 
-          pData.slides = pData.slides[0];
+      .filter(function(p){ return p.id != exceptId })
+      .each(function(data) {
+        data = _.clone(data);
+
+        if (data.slides) { 
+          data.slides = data.slides[0];
         }
 
-        BP.render($('#'+pData.id), pData, true);
+        BP.render($('#'+data.id), data, true);
       });
   },
 
-  _load: function(id, cb) {
+  _load: function(id) {
     var firstLoad   = !BP.pCount,
         projectData = BP.getProjectData(id),
         projectEl   = $('#'+projectData.id);
 
+    console.dir(projectData);
+
     projectEl.siblings().removeClass('current');
 
-    BP.animateOpacityTo(projectEl);
+    var duration = <%= data.site.animation.speed %> / 2
+      , opacity = <%= data.site.animation.opacity %>
+      , wrapper = $('.slides-wrapper', projectEl);
 
-    if (!projectEl.data('rendered')) 
+    $('.slides-wrapper').not(wrapper).filter('.focused').animate({opacity: opacity}, {
+      duration: 250,
+      complete: function() {
+        $(this).removeClass('focused');
+      }
+    });
+
+    if (!projectEl.data('rendered')) {
       BP.render(projectEl, projectData);
+    }
 
-    if (firstLoad) BP.loadAllExcept(id);
+    if (firstLoad) {
+      var projects = $('.project');
+
+      BP.pHeight = projects.outerHeight(true);
+      BP.pCount  = projects.length;
+      BP.resize();
+
+      BP.preloadExcept(id);
+    }
 
     BP.scrollTo(projectEl, firstLoad, function() {
       // adjust current submenu
@@ -91,11 +99,16 @@ var BP = {
         .removeClass('current')
         .filter('.'+projectData.id).addClass('current');
 
+      $('.slides-wrapper', projectEl).animate({opacity: 1}, {
+        duration: 250,
+        complete: function() {
+          $(this).addClass('focused');
+        }
+      });
+
       BP.currentProject = projectEl;
       BP.paginationClasses();
       projectEl.addClass('current')
-
-      if (cb) cb();
     });
   },
 
@@ -145,10 +158,12 @@ var BP = {
       BP._hScroll('next')();
     });
 
-    $(window).bind('hashchange', BP.load);
-    $(window).resize(BP.resize);
+    $(window)
+      .bind('hashchange', BP.load)
+      .bind('resize', BP.resize);
 
     BP.scroller = $('#scroller');
+    BP.wrappers = $('.slides-wrapper');
 
     BP.load();
   },

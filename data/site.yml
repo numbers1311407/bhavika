@@ -4,5 +4,5 @@ author: Bhavika Parekh
 
 animation:
   speed: 500
-  easing: "easeInOutQuad"
-
+  easing: "easeInOutSine"
+  opacity: 0.65

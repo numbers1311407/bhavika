@@ -50,10 +50,10 @@ body.home
   .project-description
     +column(1, true)
   .project
-    img
+    .slides-wrapper
       @include opacity(0.65)
-    &.current img
-      @include opacity(1)
+    // &.current .slides-wrapper
+    //   @include opacity(1)
 
     position: relative
     margin-top: $blueprint-grid-margin
