@@ -3,7 +3,7 @@
     - title: Identity1
       id: identity
       next: branding
-      description: Logo Design
+      description: Conceptualization and designing of various Identities and logos for different clients in course of my career till now.
       slides:
         - src: images/projects/logos/logos1.jpg
           title: logo1
@@ -45,7 +45,7 @@
   projects: 
     - title: Branding1
       id: branding1
-      description: arenson
+      description: Arenson is Office furnishing company established in 1983, providing broad scope of furniture solution. Re-branding was created to give a modern approach to their identity and have consistency in their communication.
       previous: branding
       next: branding2
       slides:
@@ -77,8 +77,35 @@
           description: arenson7
     - title: Branding2
       id: branding2
-      previous: branding1
-      next: Branding3
+      description: Magnum hinges company was re-branded to show its superiority of their unique products. Showcasing the nature and function of their product was a big idea through which all communications were designed.
+      next: branding3
+      slides:
+        - src: images/projects/magnum/magnum1.jpg
+          title: magnum1
+          alt: magnum1
+          description: magnum1
+        - src: images/projects/magnum/magnum2.jpg
+          title: magnum2
+          alt: magnum2
+          description: magnum2
+        - src: images/projects/magnum/magnum3.jpg
+          title: magnum3
+          alt: magnum3
+          description: arenson3
+        - src: images/projects/magnum/magnum4.jpg
+          title: magnum4
+          alt: magnum4
+          description: magnum4
+        - src: images/projects/magnum/magnum5.jpg
+          title: magnum5
+          alt: magnum5
+        - src: images/projects/magnum/magnum6.jpg
+          title: magnum6
+          alt: magnum6
+    - title: Branding3
+      id: branding3
+      previous: branding2
+      next: branding4
       description: SignUp
       slides:
         - src: images/projects/signup/signup1.jpg
@@ -113,10 +140,10 @@
           title: signup8
           alt: signup8
           description: signup8
-    - title: Branding3
-      id: branding3
-      previous: branding2
-      next: branding4
+    - title: Branding4
+      id: branding4
+      previous: branding3
+      next: branding5
       description: Aura 
       slides:
         - src: images/projects/aura/aura1.jpg
@@ -155,11 +182,11 @@
           title: aura9
           alt: aura9
           description: aura9 
-    - title: Branding4
-      id: branding4
-      previous: branding3
+    - title: Branding5
+      id: branding5
+      previous: branding4
       next: interface
-      description: HSBC 
+      description: HSBC@Work strategy was designed to communicate culture and foundation of HSBC to its employees through information design and simple iconic look so that information is clearly depicted to their employees.   
       slides:
         - src: images/projects/hsbc/hsbc1.jpg
           title: hsbc1
@@ -279,7 +306,7 @@
       id: editorial2
       previous: editorial1
       next: editorial3
-      description: Black & White
+      description: Promotional Book designed for Black & White Design Studio using types, textures & objects to showcase beauty of black & white plus positive and negative space in a design.
       slides:
         - src: images/projects/bw/bw1.jpg
           title: bw1
@@ -380,7 +407,7 @@
       id: editorial5
       previous: editorial4
       next: typography1
-      description: Honeywell Energy
+      description: Brochure for Honeywell AT&R business was designed to focus on an emerging energy enhancement of Honeywell aerospace with graphic iconic style which highlight their promise and progress. 
       slides:
         - src: images/projects/hw_energy/hw_energy1.jpg
           title: hw_energy1
@@ -404,7 +431,7 @@
       id: typography1
       previous: editorial5
       next: typography2
-      description: Dance Scope
+      description: Invitation Card designed for International Dance event. Posture of various dances from different countries are created by typefaces giving it a unique style and distinct approach.
       slides:
         - src: images/projects/dance/dance1.jpg
           title: dance1
@@ -576,7 +603,7 @@
       id: print3
       previous: print2
       next: print4
-      description: Naples 45 Menu
+      description: Elegant interlink of the typeface done for logo of Naples 45, an authentic Neapolitan pizzeria plus menu card design created by Italian mosaic patterns which gives traditional but sophisticated feel of the restaurant.
       slides:
         - src: images/projects/naples/naples1.jpg
           title: naples1
@@ -598,7 +625,7 @@
       id: print4
       previous: print3
       next: print5
-      description: HSM
+      description: Advertisements for Honeywell Speciality Material campaign that claims ownership to emotional end-benefits — like ‘security’ and ‘confidence’. This aspirational tone resonate with consumers.
       slides:
         - src: images/projects/hsm/hsm1.jpg
           title: hsm1
@@ -628,7 +655,7 @@
       id: print5
       previous: print4
       next: print6
-      description: Japan
+      description: Survival guide swatch book was created for employees of Canon US for their promotional trip to japan with japanese patterns and customized symbolic icons that includes information which helps to get familiar with Japanese culture.
       slides:
         - src: images/projects/japan/japan1.jpg
           title: japan1
