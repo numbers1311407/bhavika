@@ -3,7 +3,7 @@
     - title: Identity1
       id: identity
       next: branding
-      description: Conceptualization and designing of various Identities and logos for different clients in course of my career till now.
+      description: Conceptualization and logo designs of various identities done for different clients.
       slides:
         - src: images/projects/logos/logos1.jpg
           title: logo1
@@ -218,7 +218,7 @@
       id: interface1
       previous: branding3
       next: interface2
-      description: Wurth
+      description: To mark our 40th anniversary year for Wurth US, new website design was created to connect to their customers for so long and also promote their renovation and strong heritage.
       slides:
         - src: images/projects/wurth/wurth1.jpg
           title: wurth1
@@ -272,7 +272,8 @@
       id: editorial1
       previous: interface2
       next: editorial2
-      description: MD Report
+      description: Year in review for Mancini Duffy designed to promote their success and growing revenues. Idea behind this piece was just not to showcase their work but also show ideologies of architects and interior designers on each project.
+
       slides:
         - src: images/projects/md_report/md_report1.jpg
           title: md_report1
@@ -344,7 +345,7 @@
       id: editorial3
       previous: editorial2
       next: editorial4
-      description: Aids Task Force
+      description: Report was designed for The Brooklyn Aids Task Force, a non-profit dedicated to the HIV infected by using punctuation marks as a big idea for expressing pauses in their life.
       slides:
         - src: images/projects/aidstask/aidstask1.jpg
           title: aidstask1
@@ -373,7 +374,7 @@
       id: editorial4
       previous: editorial3
       next: editorial5
-      description: Pratt Newsletter
+      description: Survival Guide designed for Pratt Graduate Communication Design students using Official Signs & Icons. This helps new local and international student to become aware of culture, ethics, rules and procedure of Pratt Institute. 
       slides:
         - src: images/projects/pratt_news/pratt_news1.jpg
           title: pratt_news1
@@ -473,7 +474,7 @@
       id: typography2
       previous: typography1
       next: typography3
-      description: Etiquettes Book
+      description: Etiquette book, titled “Oh no you didn’t” was designed in a planner format showing A to Z tabs of Urban etiquettes. Each Letter was developed according to different issues and give info to help your own behavior.
       slides:
         - src: images/projects/etiquettes/etiquettes1.jpg
           title: etiquettes1
@@ -547,7 +548,7 @@
       id: print1
       previous: typography3
       next: print2
-      description: Intuvue
+      description: IntuVue – Honeywell’s 3-D weather radar systems for air transport, business and military aircraft was launched through this promotional cards that were designed in a way it can be interlinked to get complete message across. 
       slides:
         - src: images/projects/intuvue/intuvue1.jpg
           title: intuvue1
@@ -703,14 +704,6 @@
           title: colormatters4
           alt: colormatters4
           description: colormatters4
-        - src: images/projects/colormatters/colormatters5.jpg
-          title: colormatters5
-          alt: colormatters5
-          description: colormatters5
-        - src: images/projects/colormatters/colormatters6.jpg
-          title: colormatters6
-          alt: colormatters6
-          description: colormatters6
     - title: Print7
       id: print7
       previous: print6
@@ -745,3 +738,15 @@
           title: disney7
           alt: disney7
           description: disney7
+- title: 
+  projects:
+    - title: 
+      id: 
+      previous: 
+      next: 
+      description: 
+      slides:
+        - src: 
+          title: 
+          alt: 
+          description: 
