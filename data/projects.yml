@@ -75,6 +75,10 @@
           title: arenson7
           alt: arenson7
           description: arenson7
+        - src: images/projects/arenson/arenson8.jpg
+          title: arenson8
+          alt: arenson8
+          description: arenson8
     - title: Branding2
       id: branding2
       description: Magnum hinges company was re-branded to show its superiority of their unique products. Showcasing the nature and function of their product was a big idea through which all communications were designed.
@@ -106,7 +110,7 @@
       id: branding3
       previous: branding2
       next: branding4
-      description: SignUp
+      description: SignUp is modular colorful hangers for household purpose use like hanging light lanterns, clothes, keys, etc. Mostly trageting to female audience who wants colorful decor to suspend things for their systemtic and smart storage.
       slides:
         - src: images/projects/signup/signup1.jpg
           title: signup
@@ -144,7 +148,7 @@
       id: branding4
       previous: branding3
       next: branding5
-      description: Aura 
+      description: Aura is an oriental woman fragrance with big idea to target well satisfied happy women who feel the presence of surrounding. To show seven main layers of aura, the perfume bottle design has seven sides and color blue showcaseses serene and restful environement. 
       slides:
         - src: images/projects/aura/aura1.jpg
           title: aura1
@@ -193,25 +197,25 @@
           alt: hsbc1
           description: hsbc1
         - src: images/projects/hsbc/hsbc2.jpg
-          title: hsbc1
-          alt: hsbc1
-          description: hsbc1
+          title: hsbc2
+          alt: hsbc2
+          description: hsbc2
         - src: images/projects/hsbc/hsbc3.jpg
-          title: hsbc1
-          alt: hsbc1
-          description: hsbc1
+          title: hsbc3
+          alt: hsbc3
+          description: hsbc3
         - src: images/projects/hsbc/hsbc4.jpg
-          title: hsbc1
-          alt: hsbc1
-          description: hsbc1
+          title: hsbc4
+          alt: hsbc4
+          description: hsbc4
         - src: images/projects/hsbc/hsbc5.jpg
-          title: hsbc1
-          alt: hsbc1
-          description: hsbc1
-        - src: images/projects/hsbc/hsbc1.jpg
-          title: hsbc1
-          alt: hsbc1
-          description: hsbc1         
+          title: hsbc5
+          alt: hsbc5
+          description: hsbc5
+        - src: images/projects/hsbc/hsbc6.jpg
+          title: hsbc6
+          alt: hsbc6
+          description: hsbc6         
 - title: Interface
   projects:
     - title: Interface1
@@ -738,15 +742,3 @@
           title: disney7
           alt: disney7
           description: disney7
-- title: 
-  projects:
-    - title: 
-      id: 
-      previous: 
-      next: 
-      description: 
-      slides:
-        - src: 
-          title: 
-          alt: 
-          description: 
