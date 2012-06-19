@@ -3,7 +3,7 @@
     - title: Identity1
       id: identity
       next: branding
-      description: Logo Design
+      description: Logo Design<div class="bottom">OH GOSH</div>
       slides:
         - src: images/projects/logos/logos1.jpg
           title: logo1

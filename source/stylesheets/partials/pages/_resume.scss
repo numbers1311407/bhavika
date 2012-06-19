@@ -1,3 +1,14 @@
 body.resume {
   font-size: 10px;
+
+  .col1 {
+    @include column(2);
+    text-align: right;
+  }
+
+  .col2 {
+    @include column(3, true);
+    position: relative;
+    top: -120px;
+  }
 }

@@ -20,10 +20,18 @@ body.home
     position: relative
     margin-top: $blueprint-grid-margin
     +pie-clearfix
+  .copyright
+    +column(3)
+    +prepend(2)
+    margin-top: $blueprint-grid-margin
   .slides, .project-description
     height: 335px
   .project-description
     +column(1, true)
+    position: relative
+    .bottom
+      position: absolute
+      bottom: 0
   .slide
     float: left
     border-right: 1px solid $border-color
