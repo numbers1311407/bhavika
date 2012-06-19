@@ -2,37 +2,86 @@ body {
   &.fivecol {
     .heading {
       @include column(3);
+      @include prepend(2);
       @include min-height($row-height);
     }
     .body {
       clear: both;
       float: left;
       @include column(5);
-      @include prepend(1);
+      @include prepend(2);
     }
   }
 
   &.threecol {
     .heading {
       @include column(3);
+      @include prepend(2);
       @include min-height($row-height);
     }
     .body {
       float: left;
       @include column(3, true);
-      @include prepend(1);
+      @include prepend(3);
     }
   }
 
   &.twocol {
     .heading {
       @include column(3);
+      @include prepend(2);
       @include min-height($row-height);
     }
     .body {
       float: left;
       @include column(2);
-      @include prepend(1);
+      @include prepend(3);
     }
   }
+}
+.sub1 {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  color: #e71e25;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+}
+.sub2 {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  color: #e71e25;
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  margin-top: -3px;
+}
+.comp {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  color: #636363;
+  letter-spacing: .5pt;
+  margin-top: -4px;
+}
+.comp2 {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  color: #666;
+  letter-spacing: .5pt;
+}
+.line {
+  line-height: 12pt;
+  margin-top: -4px
+}
+.horizontal_dotted_line {
+  border-bottom: 1px dotted #F00;
+  width: 435px;
+} 
+.horizontal_dotted_line2 {
+  border-bottom: 1px dotted #F00;
+  width: 285px;
 }

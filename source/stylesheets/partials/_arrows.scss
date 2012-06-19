@@ -50,7 +50,7 @@
       cursor: pointer;
       text-indent: -999em;
       height: 335px;
-      width: 217px + 25px;
+      width: 217px;
       top: 0;
 
       span {
@@ -61,17 +61,17 @@
       }
 
       &.nav-left {
-        left: 299px - 25px;
+        left: span(2) + $blueprint-grid-margin;
         span {
-          background-position: left center;
+          background-color: red;
         }
       }
 
       &.nav-right {
-        left: 303px + 217px;
+        right: span(1) + $blueprint-grid-margin;
         span {
           float: right;
-          background-position: right center;
+          background-color: blue;
         }
       }
     }
