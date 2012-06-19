@@ -3,7 +3,7 @@
     - title: Identity1
       id: identity
       next: branding
-      description: Logo Design<div class="bottom">OH GOSH</div>
+      description: Conceptualization and logo designs of various identities done for different clients.
       slides:
         - src: images/projects/logos/logos1.jpg
           title: logo1
@@ -45,7 +45,7 @@
   projects: 
     - title: Branding1
       id: branding1
-      description: arenson
+      description: Arenson is Office furnishing company established in 1983, providing broad scope of furniture solution. Re-branding was created to give a modern approach to their identity and have consistency in their communication.
       previous: branding
       next: branding2
       slides:
@@ -75,11 +75,42 @@
           title: arenson7
           alt: arenson7
           description: arenson7
+        - src: images/projects/arenson/arenson8.jpg
+          title: arenson8
+          alt: arenson8
+          description: arenson8
     - title: Branding2
       id: branding2
-      previous: branding1
-      next: Branding3
-      description: SignUp
+      description: Magnum hinges company was re-branded to show its superiority of their unique products. Showcasing the nature and function of their product was a big idea through which all communications were designed.
+      next: branding3
+      slides:
+        - src: images/projects/magnum/magnum1.jpg
+          title: magnum1
+          alt: magnum1
+          description: magnum1
+        - src: images/projects/magnum/magnum2.jpg
+          title: magnum2
+          alt: magnum2
+          description: magnum2
+        - src: images/projects/magnum/magnum3.jpg
+          title: magnum3
+          alt: magnum3
+          description: arenson3
+        - src: images/projects/magnum/magnum4.jpg
+          title: magnum4
+          alt: magnum4
+          description: magnum4
+        - src: images/projects/magnum/magnum5.jpg
+          title: magnum5
+          alt: magnum5
+        - src: images/projects/magnum/magnum6.jpg
+          title: magnum6
+          alt: magnum6
+    - title: Branding3
+      id: branding3
+      previous: branding2
+      next: branding4
+      description: SignUp is modular colorful hangers for household purpose use like hanging light lanterns, clothes, keys, etc. Mostly trageting to female audience who wants colorful decor to suspend things for their systemtic and smart storage.
       slides:
         - src: images/projects/signup/signup1.jpg
           title: signup
@@ -113,11 +144,11 @@
           title: signup8
           alt: signup8
           description: signup8
-    - title: Branding3
-      id: branding3
-      previous: branding2
-      next: branding4
-      description: Aura 
+    - title: Branding4
+      id: branding4
+      previous: branding3
+      next: branding5
+      description: Aura is an oriental woman fragrance with big idea to target well satisfied happy women who feel the presence of surrounding. To show seven main layers of aura, the perfume bottle design has seven sides and color blue showcaseses serene and restful environement. 
       slides:
         - src: images/projects/aura/aura1.jpg
           title: aura1
@@ -155,43 +186,43 @@
           title: aura9
           alt: aura9
           description: aura9 
-    - title: Branding4
-      id: branding4
-      previous: branding3
+    - title: Branding5
+      id: branding5
+      previous: branding4
       next: interface
-      description: HSBC 
+      description: HSBC@Work strategy was designed to communicate culture and foundation of HSBC to its employees through information design and simple iconic look so that information is clearly depicted to their employees.   
       slides:
         - src: images/projects/hsbc/hsbc1.jpg
           title: hsbc1
           alt: hsbc1
           description: hsbc1
         - src: images/projects/hsbc/hsbc2.jpg
-          title: hsbc1
-          alt: hsbc1
-          description: hsbc1
+          title: hsbc2
+          alt: hsbc2
+          description: hsbc2
         - src: images/projects/hsbc/hsbc3.jpg
-          title: hsbc1
-          alt: hsbc1
-          description: hsbc1
+          title: hsbc3
+          alt: hsbc3
+          description: hsbc3
         - src: images/projects/hsbc/hsbc4.jpg
-          title: hsbc1
-          alt: hsbc1
-          description: hsbc1
+          title: hsbc4
+          alt: hsbc4
+          description: hsbc4
         - src: images/projects/hsbc/hsbc5.jpg
-          title: hsbc1
-          alt: hsbc1
-          description: hsbc1
-        - src: images/projects/hsbc/hsbc1.jpg
-          title: hsbc1
-          alt: hsbc1
-          description: hsbc1         
+          title: hsbc5
+          alt: hsbc5
+          description: hsbc5
+        - src: images/projects/hsbc/hsbc6.jpg
+          title: hsbc6
+          alt: hsbc6
+          description: hsbc6         
 - title: Interface
   projects:
     - title: Interface1
       id: interface1
       previous: branding3
       next: interface2
-      description: Wurth
+      description: To mark our 40th anniversary year for Wurth US, new website design was created to connect to their customers for so long and also promote their renovation and strong heritage.
       slides:
         - src: images/projects/wurth/wurth1.jpg
           title: wurth1
@@ -245,7 +276,8 @@
       id: editorial1
       previous: interface2
       next: editorial2
-      description: MD Report
+      description: Year in review for Mancini Duffy designed to promote their success and growing revenues. Idea behind this piece was just not to showcase their work but also show ideologies of architects and interior designers on each project.
+
       slides:
         - src: images/projects/md_report/md_report1.jpg
           title: md_report1
@@ -279,7 +311,7 @@
       id: editorial2
       previous: editorial1
       next: editorial3
-      description: Black & White
+      description: Promotional Book designed for Black & White Design Studio using types, textures & objects to showcase beauty of black & white plus positive and negative space in a design.
       slides:
         - src: images/projects/bw/bw1.jpg
           title: bw1
@@ -317,7 +349,7 @@
       id: editorial3
       previous: editorial2
       next: editorial4
-      description: Aids Task Force
+      description: Report was designed for The Brooklyn Aids Task Force, a non-profit dedicated to the HIV infected by using punctuation marks as a big idea for expressing pauses in their life.
       slides:
         - src: images/projects/aidstask/aidstask1.jpg
           title: aidstask1
@@ -346,7 +378,7 @@
       id: editorial4
       previous: editorial3
       next: editorial5
-      description: Pratt Newsletter
+      description: Survival Guide designed for Pratt Graduate Communication Design students using Official Signs & Icons. This helps new local and international student to become aware of culture, ethics, rules and procedure of Pratt Institute. 
       slides:
         - src: images/projects/pratt_news/pratt_news1.jpg
           title: pratt_news1
@@ -380,7 +412,7 @@
       id: editorial5
       previous: editorial4
       next: typography1
-      description: Honeywell Energy
+      description: Brochure for Honeywell AT&R business was designed to focus on an emerging energy enhancement of Honeywell aerospace with graphic iconic style which highlight their promise and progress. 
       slides:
         - src: images/projects/hw_energy/hw_energy1.jpg
           title: hw_energy1
@@ -404,7 +436,7 @@
       id: typography1
       previous: editorial5
       next: typography2
-      description: Dance Scope
+      description: Invitation Card designed for International Dance event. Posture of various dances from different countries are created by typefaces giving it a unique style and distinct approach.
       slides:
         - src: images/projects/dance/dance1.jpg
           title: dance1
@@ -446,7 +478,7 @@
       id: typography2
       previous: typography1
       next: typography3
-      description: Etiquettes Book
+      description: Etiquette book, titled “Oh no you didn’t” was designed in a planner format showing A to Z tabs of Urban etiquettes. Each Letter was developed according to different issues and give info to help your own behavior.
       slides:
         - src: images/projects/etiquettes/etiquettes1.jpg
           title: etiquettes1
@@ -520,7 +552,7 @@
       id: print1
       previous: typography3
       next: print2
-      description: Intuvue
+      description: IntuVue – Honeywell’s 3-D weather radar systems for air transport, business and military aircraft was launched through this promotional cards that were designed in a way it can be interlinked to get complete message across. 
       slides:
         - src: images/projects/intuvue/intuvue1.jpg
           title: intuvue1
@@ -576,7 +608,7 @@
       id: print3
       previous: print2
       next: print4
-      description: Naples 45 Menu
+      description: Elegant interlink of the typeface done for logo of Naples 45, an authentic Neapolitan pizzeria plus menu card design created by Italian mosaic patterns which gives traditional but sophisticated feel of the restaurant.
       slides:
         - src: images/projects/naples/naples1.jpg
           title: naples1
@@ -598,7 +630,7 @@
       id: print4
       previous: print3
       next: print5
-      description: HSM
+      description: Advertisements for Honeywell Speciality Material campaign that claims ownership to emotional end-benefits — like ‘security’ and ‘confidence’. This aspirational tone resonate with consumers.
       slides:
         - src: images/projects/hsm/hsm1.jpg
           title: hsm1
@@ -628,7 +660,7 @@
       id: print5
       previous: print4
       next: print6
-      description: Japan
+      description: Survival guide swatch book was created for employees of Canon US for their promotional trip to japan with japanese patterns and customized symbolic icons that includes information which helps to get familiar with Japanese culture.
       slides:
         - src: images/projects/japan/japan1.jpg
           title: japan1
@@ -676,14 +708,6 @@
           title: colormatters4
           alt: colormatters4
           description: colormatters4
-        - src: images/projects/colormatters/colormatters5.jpg
-          title: colormatters5
-          alt: colormatters5
-          description: colormatters5
-        - src: images/projects/colormatters/colormatters6.jpg
-          title: colormatters6
-          alt: colormatters6
-          description: colormatters6
     - title: Print7
       id: print7
       previous: print6
