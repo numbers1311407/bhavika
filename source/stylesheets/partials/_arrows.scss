@@ -49,29 +49,35 @@
       position: absolute;
       cursor: pointer;
       text-indent: -999em;
-      height: 335px;
-      width: 217px;
-      top: 0;
+      height: 36px;
+      width: 17px;
+      top: 150px;
 
       span {
         background: transparent image_url("arrows.png") no-repeat;
         display: block;
         height: inherit;
-        width: 27px;
+        width: 17px;
       }
 
       &.nav-left {
-        left: span(2) + $blueprint-grid-margin;
+        left: 308px - 25px;
         span {
-          background-color: red;
+          background-position: left center;
+          background: image_url("arrows.png") no-repeat -170px -279px; 
+          width: 17px; 
+          height: 36px;
         }
       }
 
       &.nav-right {
-        right: span(1) + $blueprint-grid-margin;
+        left: 517px + 217px;
         span {
           float: right;
-          background-color: blue;
+          background-position: right center;
+          background: image_url("arrows.png") no-repeat -223px -279px; 
+          width: 17px; 
+          height: 36px;
         }
       }
     }

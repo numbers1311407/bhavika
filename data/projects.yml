@@ -3,7 +3,8 @@
     - title: Identity1
       id: identity
       next: branding
-      description: Conceptualization and logo designs of various identities done for different clients.
+      description: Conceptualization and logo designs of various identities done for different clients.<div class="bottom">jfjkghf</div>
+      
       slides:
         - src: images/projects/logos/logos1.jpg
           title: logo1
@@ -284,29 +285,33 @@
           alt: md_report1
           description: md_report1
         - src: images/projects/md_report/md_report2.jpg
-          title: md_report1
-          alt: md_report1
-          description: md_report1
+          title: md_report2
+          alt: md_report2
+          description: md_report2
         - src: images/projects/md_report/md_report3.jpg
-          title: md_report1
-          alt: md_report1
-          description: md_report1
+          title: md_report3
+          alt: md_report3
+          description: md_report3
         - src: images/projects/md_report/md_report4.jpg
-          title: md_report1
-          alt: md_report1
-          description: md_report1
+          title: md_report4
+          alt: md_report4
+          description: md_report4
         - src: images/projects/md_report/md_report5.jpg
-          title: md_report1
-          alt: md_report1
-          description: md_report1 
+          title: md_report5
+          alt: md_report5
+          description: md_report5 
         - src: images/projects/md_report/md_report6.jpg
-          title: md_report1
-          alt: md_report1
-          description: md_report1 
+          title: md_report6
+          alt: md_report6
+          description: md_report6 
         - src: images/projects/md_report/md_report7.jpg
-          title: md_report1
-          alt: md_report1
-          description: md_report1 
+          title: md_report7
+          alt: md_report7
+          description: md_report7
+        - src: images/projects/md_report/md_report8.jpg
+          title: md_report8
+          alt: md_report8
+          description: md_report8 
     - title: Editorial2
       id: editorial2
       previous: editorial1
@@ -697,7 +702,7 @@
           alt: colormatters1
           description: colormatters1
         - src: images/projects/colormatters/colormatters2.jpg
-          title: colormatters1
+          title: colormatters2
           alt: colormatters2
           description: colormatters2
         - src: images/projects/colormatters/colormatters3.jpg
@@ -708,6 +713,30 @@
           title: colormatters4
           alt: colormatters4
           description: colormatters4
+        - src: images/projects/colormatters/colormatters5.jpg
+          title: colormatters5
+          alt: colormatters5
+          description: colormatters5
+        - src: images/projects/colormatters/colormatters6.jpg
+          title: colormatters6
+          alt: colormatters6
+          description: colormatters7
+        - src: images/projects/colormatters/colormatters7.jpg
+          title: colormatters7
+          alt: colormatters7
+          description: colormatters7
+        - src: images/projects/colormatters/colormatters8.jpg
+          title: colormatters8
+          alt: colormatters8
+          description: colormatters8
+        - src: images/projects/colormatters/colormatters9.jpg
+          title: colormatters9
+          alt: colormatters9
+          description: colormatters9
+        - src: images/projects/colormatters/colormatters10.jpg
+          title: colormatters10
+          alt: colormatters10
+          description: colormatters10  
     - title: Print7
       id: print7
       previous: print6
