@@ -3,7 +3,7 @@
     - title: Identity1
       id: identity
       next: branding
-      description: Conceptualization and logo designs of various identities done for different clients.<div class="bottom">jfjkghf</div>
+      description: <b>Logo Design</b><br>Conceptualization and <br>logo designs of various identities
       
       slides:
         - src: images/projects/logos/logos1.jpg
@@ -46,8 +46,7 @@
   projects: 
     - title: Branding1
       id: branding1
-      description: Arenson is Office furnishing company established in 1983, providing broad scope of furniture solution. Re-branding was created to give a modern approach to their identity and have consistency in their communication.
-      previous: branding
+      description: <b>Arenson Furnishing Company</b><br>The project involved rebranding to give a modern approach to <br>their identity and have consistency across all internal and external communications. 
       next: branding2
       slides:
         - src: images/projects/arenson/arenson1.jpg
@@ -82,7 +81,7 @@
           description: arenson8
     - title: Branding2
       id: branding2
-      description: Magnum hinges company was re-branded to show its superiority of their unique products. Showcasing the nature and function of their product was a big idea through which all communications were designed.
+      description: <b>Magnum</b><br> Hinges Company was branded to display the superiority of their products. Big idea was to get all the communications designed showing functionalities of this simple product in a very aesthetic manner. 
       next: branding3
       slides:
         - src: images/projects/magnum/magnum1.jpg
@@ -111,7 +110,7 @@
       id: branding3
       previous: branding2
       next: branding4
-      description: SignUp is modular colorful hangers for household purpose use like hanging light lanterns, clothes, keys, etc. Mostly trageting to female audience who wants colorful decor to suspend things for their systemtic and smart storage.
+      description: <b>SignUp</b><br> Startup company for modular colorful hangers for household purpose was given a complete branding system targeting female audience who wants colorful decor to suspend things for their systemtic and smart storage.
       slides:
         - src: images/projects/signup/signup1.jpg
           title: signup
@@ -149,7 +148,7 @@
       id: branding4
       previous: branding3
       next: branding5
-      description: Aura is an oriental woman fragrance with big idea to target well satisfied happy women who feel the presence of surrounding. To show seven main layers of aura, the perfume bottle design has seven sides and color blue showcaseses serene and restful environement. 
+      description: <b>Aura</b><br> The oriental women fragrance bottle designed with seven sides to depict actual seven layers of aura. Main objective was to showcase serene and restful environment
       slides:
         - src: images/projects/aura/aura1.jpg
           title: aura1
@@ -191,7 +190,7 @@
       id: branding5
       previous: branding4
       next: interface
-      description: HSBC@Work strategy was designed to communicate culture and foundation of HSBC to its employees through information design and simple iconic look so that information is clearly depicted to their employees.   
+      description: <b>HSBC</b><br> A simple iconic and information design was used for HSBC@work strategy which helped HSBC to communicate firms culture and foundation to its employees
       slides:
         - src: images/projects/hsbc/hsbc1.jpg
           title: hsbc1
@@ -223,7 +222,7 @@
       id: interface1
       previous: branding3
       next: interface2
-      description: To mark our 40th anniversary year for Wurth US, new website design was created to connect to their customers for so long and also promote their renovation and strong heritage.
+      description: <b>Wurth US</b><br> Design options was created for new website for Wurth US on their 40th anniversary to promote and connect their products to customers worldwide.
       slides:
         - src: images/projects/wurth/wurth1.jpg
           title: wurth1
@@ -249,7 +248,7 @@
       id: interface2
       previous: branding3
       next: editiorial
-      description: ATR 
+      description: <b>Honeywell</b><br>Multiple Microsite <br<designs were created for <br>Honeywell to showcase newly launched products, keeping in mind their <br>brand standards.
       slides:
         - src: images/projects/atr/atr1.jpg
           title: atr1
@@ -277,8 +276,7 @@
       id: editorial1
       previous: interface2
       next: editorial2
-      description: Year in review for Mancini Duffy designed to promote their success and growing revenues. Idea behind this piece was just not to showcase their work but also show ideologies of architects and interior designers on each project.
-
+      description: <b>Mancini Duffy</b><br>‘Year in Review’ an annual report was designed to promote their success and growing revenues to employees and investors. Ideologies of each and every architects and interior designers were thoroughly captured.
       slides:
         - src: images/projects/md_report/md_report1.jpg
           title: md_report1
@@ -316,7 +314,7 @@
       id: editorial2
       previous: editorial1
       next: editorial3
-      description: Promotional Book designed for Black & White Design Studio using types, textures & objects to showcase beauty of black & white plus positive and negative space in a design.
+      description: <b>Black & White Design Studio</b><br>Promotional Book designed using types, textures & objects to showcase beauty of black & white plus positive and negative space in a design.
       slides:
         - src: images/projects/bw/bw1.jpg
           title: bw1
@@ -354,7 +352,7 @@
       id: editorial3
       previous: editorial2
       next: editorial4
-      description: Report was designed for The Brooklyn Aids Task Force, a non-profit dedicated to the HIV infected by using punctuation marks as a big idea for expressing pauses in their life.
+      description: <b>Brooklyn Aids Task</b><br>Report was designed for this non-profit dedicated to the HIV infected by using punctuation marks for expressing pauses in their life by the disease and work done by the organaziation towards helping them.
       slides:
         - src: images/projects/aidstask/aidstask1.jpg
           title: aidstask1
@@ -383,7 +381,7 @@
       id: editorial4
       previous: editorial3
       next: editorial5
-      description: Survival Guide designed for Pratt Graduate Communication Design students using Official Signs & Icons. This helps new local and international student to become aware of culture, ethics, rules and procedure of Pratt Institute. 
+      description: <b>Pratt Institute</b><br>Survival guide was designed for incoming <br>new local and international students of graduate dpeartment to make them aware of culture, ethics, rules and procedures<br> of the institute.
       slides:
         - src: images/projects/pratt_news/pratt_news1.jpg
           title: pratt_news1
@@ -417,7 +415,7 @@
       id: editorial5
       previous: editorial4
       next: typography1
-      description: Brochure for Honeywell AT&R business was designed to focus on an emerging energy enhancement of Honeywell aerospace with graphic iconic style which highlight their promise and progress. 
+      description: <b>Honeywell</b><br>A New iconic style brochure displaying the promise and progress of an emerging enhancement of Honeywell AT&R business was designed. 
       slides:
         - src: images/projects/hw_energy/hw_energy1.jpg
           title: hw_energy1
@@ -441,7 +439,7 @@
       id: typography1
       previous: editorial5
       next: typography2
-      description: Invitation Card designed for International Dance event. Posture of various dances from different countries are created by typefaces giving it a unique style and distinct approach.
+      description: <b>DanceScope</b><br>Posture of various dances created by typefaces giving it a unique style and distinct approach for an invitation card designed for international dance event.
       slides:
         - src: images/projects/dance/dance1.jpg
           title: dance1
@@ -483,7 +481,7 @@
       id: typography2
       previous: typography1
       next: typography3
-      description: Etiquette book, titled “Oh no you didn’t” was designed in a planner format showing A to Z tabs of Urban etiquettes. Each Letter was developed according to different issues and give info to help your own behavior.
+      description: <b>Book Design</b><br>Etiquette book, titles<br> “oh no you didn’t” was designed in a planner format showing A to Z tabs of urban etiquettes. Each Letter was developed <br>and designed giving information related to help ones own behavior.
       slides:
         - src: images/projects/etiquettes/etiquettes1.jpg
           title: etiquettes1
@@ -557,7 +555,7 @@
       id: print1
       previous: typography3
       next: print2
-      description: IntuVue – Honeywell’s 3-D weather radar systems for air transport, business and military aircraft was launched through this promotional cards that were designed in a way it can be interlinked to get complete message across. 
+      description: <b>IntuVue</b><br> Honeywell’s 3-D weather radar systems for air transport, business and military aircraft was launched through this promotional cards that were designed in a way it can be interlinked to get complete message across. 
       slides:
         - src: images/projects/intuvue/intuvue1.jpg
           title: intuvue1
@@ -591,7 +589,7 @@
       id: print2
       previous: print1
       next: print3
-      description: MD Holiday Card
+      description: <b>Mancini Duffy</b><br>Holiday card was designed for Mancini Duffy clients by executing elegantly with foil stamping and die cut to showcase the idea.
       slides:
         - src: images/projects/md_joy/md_joy1.jpg
           title: md_joy1
@@ -613,7 +611,7 @@
       id: print3
       previous: print2
       next: print4
-      description: Elegant interlink of the typeface done for logo of Naples 45, an authentic Neapolitan pizzeria plus menu card design created by Italian mosaic patterns which gives traditional but sophisticated feel of the restaurant.
+      description: <b>Naples45</b><br>The Menu Card was designed using Italian Mosaic patterns and <br>giving traditional but sophisticated feel <br>of the restaurant.
       slides:
         - src: images/projects/naples/naples1.jpg
           title: naples1
@@ -631,11 +629,19 @@
           title: naples4
           alt: naples4
           description: naples4
+        - src: images/projects/naples/naples5.jpg
+          title: naples5
+          alt: naples5
+          description: naples5
+        - src: images/projects/naples/naples6.jpg
+          title: naples6
+          alt: naples6
+          description: naples6
     - title: Print4
       id: print4
       previous: print3
       next: print5
-      description: Advertisements for Honeywell Speciality Material campaign that claims ownership to emotional end-benefits — like ‘security’ and ‘confidence’. This aspirational tone resonate with consumers.
+      description: <b>Honeywell</b><br>The print advertisements were done for honeywell specialty material campaign which feeling of emotional end benefits like ‘security’ and ‘confidence’.
       slides:
         - src: images/projects/hsm/hsm1.jpg
           title: hsm1
@@ -665,7 +671,7 @@
       id: print5
       previous: print4
       next: print6
-      description: Survival guide swatch book was created for employees of Canon US for their promotional trip to japan with japanese patterns and customized symbolic icons that includes information which helps to get familiar with Japanese culture.
+      description: <b>Canon, US</b><br>Japan Survival guide swatch book was created for employees for their promotional trip to japan with japanese patterns and customized symbolic icons with information that helps to get familiar with Japanese culture.
       slides:
         - src: images/projects/japan/japan1.jpg
           title: japan1
@@ -695,7 +701,7 @@
       id: print6
       previous: print5
       next: print7
-      description: Color Matters
+      description: <b>Color Matters</b><br>Flip book was designed to showcase numerous amount of color pixels in any object. It showed that colors matters in ones life to create wonderful experience.
       slides:
         - src: images/projects/colormatters/colormatters1.jpg
           title: colormatters1
@@ -741,7 +747,7 @@
       id: print7
       previous: print6
       next: 
-      description: Disney
+      description: <b>Disney Book</b><br>Children’s Quiz Book was designed with Disney characters and using special typography and color combination to make fun experience for kids. 
       slides:
         - src: images/projects/disney/disney1.jpg
           title: disney1
