@@ -1,5 +1,5 @@
 desc "Build with middleman"
-desc :build do
+task :build do
   system "middleman build"
 end
 
